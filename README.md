@@ -19,8 +19,9 @@ This project investigates the relationship between emotional arcs in films and t
  - How do emotions differ between successful and unsuccessful films? What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
 
 ## Additional datasets
+To address missing data in our dataset, we incorporate additional information from Wikipedia pages for films to complete the CMU dataset. Approximately 40% of film summaries and over 90% of box office values are missing, and these metrics are essential for our analysis. To fill these gaps, we use libraries like wikipedia-api and pywikibot, and in cases requiring more detail, we utilize requests and BeautifulSoup for web scraping. Our approach involves extracting summaries from the Plot/Synopsis/Summary sections and box office revenue from the InfoBox, ensuring we access the correct page by handling title variations, such as adding "(film), and handling page redirections.
 
-We will mostly make use of scraping on Wikipedia to complete the CMU dataset, most notably on box office revenues which are vastly missing and on summaries since it is our main data focus. TO COMPLETE INES
+This process enriches our data, specifically targeting films with incomplete summaries (replacing those under 200 words with the Wikipedia entry) and adding missing box office values.
 
 ## Methods
 
