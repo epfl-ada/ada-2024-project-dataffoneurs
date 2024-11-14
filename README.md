@@ -1,69 +1,54 @@
-"# ada-2024-project-dataffoneurs" 
-## From Laughs to Tears: How Emotional Journeys Win Audiences 
+# From Laughs to Tears: How Emotional Journeys Win Audiences 
 
 ## Abstract
 
 This project investigates the relationship between emotional arcs in films and their success, focusing on how emotions evolve within genres, across continents, and over time. The goal is to identify whether universal or genre-specific emotional patterns exist and how these patterns influence the reception of films, particularly in terms of box office performance, ratings, and awards. The project explores whether films with more varied emotional trajectories perform better and whether certain emotional dynamics optimize success. Additionally, it examines the role of historical context in shaping emotional arcs across different genres. By analyzing these emotional patterns, the research aims to uncover key insights into how emotions impact audience engagement and contribute to a film’s success. The motivation behind this work is to offer a deeper understanding of the emotional strategies that make films resonate with viewers globally, providing a better understanding of the factors that drive their enjoyment and connection to the story.
 
-## Research Questions
+## Research questions we aim to answer
 
-### Introductory:
-1. Does a universal or genre-specific emotional arc exist across films, and how does it change over time and across different eras?
-2. How do emotional arcs in films within the same genre vary across continents?
-3. How does the emotional arc in a specific genre (e.g., action, drama) vary across continents, and can we link this variation to historical contexts or events?
-4. What emotions or sentiments dominate in each genre?
+ -  Does a universal or genre-specific emotional arc exist across movies, and how does it change over time and across different eras?
 
-### In Detail:
-1. To what extent does the average emotional tone of a film influence its success (box office, ratings, awards)?
-2. How does the emotional arc throughout a film affect its success (box office, ratings, awards)? Does a more varied emotional arc contribute to the film’s success?
-3. How do emotions differ between successful and unsuccessful films?
-4. What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
-5. What emotional patterns are linked to maximizing a film’s success?
-6. Are the most successful emotional dynamics the same across all genres and regions globally?
-7. Can we identify patterns of emotion (either through the mean or evolution) that optimize a film’s success?
+ -  What emotions or sentiments dominate in each genre?
 
-## Proposed Additional Datasets
+ - How do emotional arcs in films within the same genre vary across continents? Especially do differences emerge when North America is not taken into account ?
 
-The additional datasets will include:
+ -  How does the emotional arc in a specific genre (e.g., action, drama) vary across continents, and can we link this variation to historical contexts or events?
 
-1. *Movie Metadata*: Data on plot summaries, box office revenue, IMDB reviews, etc., to correlate emotional arcs with success metrics.
-2. *Emotional Data*: Analysis of sentiment trends over time using sentiment analysis models, based on scripts, plot summaries, or reviews.
-3. *Genre and Regional Data*: Information on movie genres and their regional differences, to examine the impact of these factors on emotional arcs.
+ - To what extent does the average emotional tone of a film influence its success (box office, ratings, awards)? Is emotion a leading factor? Does a more varied emotional arc contribute to the film’s success?
 
-Data will be collected primarily through web scraping of trusted movie databases such as IMDB and Box Office Mojo. Sentiment analysis will be performed using NLP tools to analyze reviews and plot summaries. The datasets will be cleaned and processed to create a final, unique dataframe, and we will enrich this data with additional information regarding movie characteristics (e.g., genres, release dates).
+ - How do emotions differ between successful and unsuccessful films? What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
+
+## Additional datasets
+
+We will mostly make use of scraping on Wikipedia to complete the CMU dataset, most notably on box office revenues which are vastly missing and on summaries since it is our main data focus. TO COMPLETE INES
 
 ## Methods
 
-- *Sentiment Analysis*: Using NLP models to evaluate emotional tone and arc throughout films based on script summaries or reviews.
-- *Data Integration*: Combining different data sources (e.g., box office revenue, ratings) for analysis.
-- *Statistical Analysis*: Using correlation and regression analysis to identify relationships between emotional arcs and film success.
-- *Data Visualization*: Using tools such as Python’s Matplotlib and Seaborn for plotting emotional trends across films, genres, and time.
-  
+To estimate the sentiment of a movie, we apply sentiment classification models on the text of its summary. First, we clean each summary by removing any irrelevant or problematic content (e.g., html tags, weird citations). After cleaning, we calculate the word count of each summary to ensure it meets a minimum length requirement. For summaries that are too short, we retrieve additional information by scraping extended descriptions from the internet.
+
+Once the summary is ready, we segment it—either by splitting into phrases or by splitting into segments (can be more than 1 sentence) based on semantic similarity. Each segment is then passed through a sentiment analysis model, specifically distiled version of RoBERTa. This model classifies each segment into one of seven emotions: anger, disgust, fear, joy, neutral, sadness, or surprise, providing a proportional score for each emotion.
+
+To be able to compare emotion dynamics across movies, we use interpolation (or extrapolation when needed), to be able to have a common timeline for all movies. This allows us to approximate the emotions through the length of a movie with the emotions brought out by the summary.
+
+In the final step, we fill in any missing data, such as box office revenue, release year, or genre, by scraping additional sources as needed and remove every row with NaN value. This thorough process results in a comprehensive dataset that captures not only the sentiment profile of each movie summary but also key contextual and financial data.
+
+Details of the methods are presented in the results notebook.
+
 ## Proposed Timeline
 
-### Week 1:
-- Scraping of all additional data (Plot summaries, Box office revenues, IMDB reviews) is completed.
-- Data cleaning and integration into a final dataframe.
-- Initial analysis of the emotional arcs using the mean average emotion to predict box office performance.
+| Week          | Description | Person in charge |
+| -----------   | ----------- | ----------- |
+| Week 10 | Finish scraping if needed, run sentiment analysis on all films once done | |
+| Week 10 | Draw plots, answer general questions about general dynamics for all movies, across genres, time, and continent |  |
+| Week 11 | Dig deeper into differences across genres | |
+| Week 11 | Dig deeper into differences continent time | |
+| Week 11 | Dig deeper into differences across continents |  |
+| Week 12 | Investigate the box office - emotional relationship in detail |  |
+| Week 12 | Investigate the reviews, awards - emotional relationship in detail |
+| Week 13 | Get together week, analysis of results together |  |
+| Week 14 |  Data story writing  ||
 
-### Week 2:
-- Deeper analysis of emotional arcs, including variations across genres, continents, and historical contexts.
-- Answering the introductory research questions based on the data.
 
-### Week 3:
-- Finalizing all analyses.
-- Constructing an interactive and engaging data story based on the findings.
-- Creating the written narrative for the data story to present the results.
 
-## Organization within the Team
 
-1. *Milestone 1*: Gathering all the necessary data (Plot summaries, Box office revenues, IMDB reviews) through scraping.
-2. *Milestone 2*: Running sentiment analysis and addressing the introductory questions.
-3. *Milestone 3*: Delving deeper into the analysis to answer the "In Detail" questions.
-4. *Milestone 4*: Organizing and formatting the results into a clear, interactive data story and completing the accompanying text.
 
-## Questions for TAs (Optional)
-
-- What tools do you recommend for sentiment analysis that can handle large datasets efficiently? 
-- Are there any suggested techniques for assessing the impact of historical events on emotional arcs in films?
-- How should we account for regional differences when comparing emotional arcs, and can we factor in cultural influences on film reception?
