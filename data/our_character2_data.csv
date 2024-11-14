@@ -1,0 +1,498 @@
+Actor_name,character_types,character,Freebase_character_ID,Freebase_actor_ID,Freebase_character/actor_map_ID,Actor_gender,Actor_age_at_movie_release,Actor_date_of_birth,Actor_height_(in meters),Actor_ethnicity_(Freebase ID),unique_character_name,movie,Wikipedia_movie_ID,Freebase_movie_ID
+John Travolta,stupid_crooks,Vincent Vega,/m/030rbl,/m/0f502,/m/01xlj4l,M,,1954.0,1.83,/m/0xnvg,,Pulp Fiction,54173,/m/0f4_l
+Harrison Ford,trickster,Han Solo,/m/0fjn8,/m/0c0k1,/m/01xpntj,M,37.0,1942.0,1.85,/m/01qhm_,Han Solo,Star Wars Episode V: The Empire Strikes Back,53964,/m/0f3m1
+Jonathan Winters,dumb_muscle,Lennie Pike,/m/0h5n8k6,/m/01gn36,/m/01z0cck,M,37.0,1925.0,1.77,,,"It's a Mad, Mad, Mad, Mad World",18952889,/m/0k5fg
+Eddie Murphy,henpecked_husband,Norbit,/m/02nwkcr,/m/0f7hc,/m/01z0rf5,M,45.0,1961.0,1.75,/m/0x67,,Norbit,7261333,/m/0kv2hv
+Frank Whaley,crazy_jealous_guy,Guy,/m/02nwn16,/m/07sjll,/m/021_h9h,M,31.0,1963.0,1.71,,,Swimming with Sharks,1670736,/m/05m55b
+Warren Oates,drill_sargeant_nasty,Sgt. Hulka,/m/07034y7,/m/049tcm,/m/022108v,M,52.0,1928.0,1.82,,,Stripes,560511,/m/02q2jw
+Clancy Brown,arrogant_kungfu_guy,Kurgan,/m/02nwg1k,/m/03wy70,/m/02214xq,M,,1959.0,1.918,,,Highlander,4440277,/m/0c2jgd
+Martin Lawrence,henpecked_husband,Bobby Davis,/m/0byd_9c,/m/02633g,/m/0256cyz,M,41.0,1965.0,1.71,/m/0x67,,Wild Hogs,5733558,/m/0f1vgm
+Al Pacino,crazy_jealous_guy,Tony Montana,/m/02t4sm,/m/0bj9k,/m/02_8_nx,M,43.0,1940.0,1.7,/m/0xnvg,,Scarface,267848,/m/01nln3
+Jon Heder,surfer_dude,Chicken Joe,/m/02_wz81,/m/04stzk,/m/02_wz7y,M,29.0,1977.0,1.85,,,Surf's Up,2811955,/m/08481w
+Jeff Bridges,surfer_dude,Geek,/m/02_wz9x,/m/0flw6,/m/02_wz9s,M,57.0,1949.0,1.85,,,Surf's Up,2811955,/m/08481w
+Daniel Craig,bruiser_with_a_soft_center,James Bond,/m/0clpml,/m/04shbh,/m/02hw79s,M,38.0,1968.0,1.78,/m/04_bc8,James Bond,Casino Royale,930379,/m/03r0g9
+Daniel Craig,byronic_hero,James Bond,/m/0clpml,/m/04shbh,/m/02hw79s,M,38.0,1968.0,1.78,/m/04_bc8,James Bond,Casino Royale,930379,/m/03r0g9
+Daniel Craig,charmer,James Bond,/m/0clpml,/m/04shbh,/m/02hw79s,M,38.0,1968.0,1.78,/m/04_bc8,James Bond,Casino Royale,930379,/m/03r0g9
+Daniel Craig,cultured_badass,James Bond,/m/0clpml,/m/04shbh,/m/02hw79s,M,38.0,1968.0,1.78,/m/04_bc8,James Bond,Casino Royale,930379,/m/03r0g9
+James Earl Jones,master_swordsman,Darth Vader,/m/0f2y0,/m/0f6_x,/m/02nwtmm,M,49.0,1931.0,1.87,/m/0x67,Darth Vader,Star Wars Episode V: The Empire Strikes Back,53964,/m/0f3m1
+Ronald Lacey,psycho_for_hire,Major Arnold Toht,/m/026fvdw,/m/08j3wq,/m/02nwzyz,M,45.0,1935.0,,,,Indiana Jones and the Raiders of the Lost Ark,54166,/m/0f4yh
+Jake Lloyd,child_prodigy,Anakin Skywalker,/m/0f2xj,/m/02p8dm,/m/02sg5rn,M,10.0,1989.0,1.7,,Anakin Skywalker,Star Wars Episode I: The Phantom Menace,50793,/m/0ddt_
+Jake Lloyd,gadgeteer_genius,Anakin Skywalker,/m/0f2xj,/m/02p8dm,/m/02sg5rn,M,10.0,1989.0,1.7,,Anakin Skywalker,Star Wars Episode I: The Phantom Menace,50793,/m/0ddt_
+Hayden Christensen,arrogant_kungfu_guy,Anakin Skywalker,/m/0f2xj,/m/0f276,/m/02sg5ry,M,24.0,1981.0,1.87,,Anakin Skywalker,Star Wars Episode III: Revenge of the Sith,55447,/m/0fdv3
+Hayden Christensen,byronic_hero,Anakin Skywalker,/m/0f2xj,/m/0f276,/m/02sg5ry,M,24.0,1981.0,1.87,,Anakin Skywalker,Star Wars Episode III: Revenge of the Sith,55447,/m/0fdv3
+Frank Oz,eccentric_mentor,Yoda,/m/0g_tb,/m/01vy_v8,/m/02sg6hm,M,35.0,1944.0,1.88,/m/041rx,,Star Wars Episode V: The Empire Strikes Back,53964,/m/0f3m1
+Seth Rogen,slacker,Dale Denton,/m/04zk2_b,/m/05txrz,/m/02t9zmj,M,26.0,1982.0,1.797,/m/041rx,,Pineapple Express,9264341,/m/02825nf
+Seth Rogen,stoner,Dale Denton,/m/04zk2_b,/m/05txrz,/m/02t9zmj,M,26.0,1982.0,1.797,/m/041rx,,Pineapple Express,9264341,/m/02825nf
+Laura San Giacomo,ophelia,Crazy Cora,/m/0h32zqz,/m/0300lh,/m/02tb5g1,F,27.0,1962.0,1.57,,,Quigley Down Under,2688769,/m/07y2zw
+Pauly Shore,surfer_dude,Crawl,/m/0h1wkk9,/m/01sbhvd,/m/02tb5qh,M,25.0,1968.0,1.71,/m/041rx,,Son in Law,3779953,/m/09_l5f
+Samuel L. Jackson,dirty_cop,Abel Turner,/m/0bb9l1c,/m/0f5xn,/m/02tb650,M,59.0,1948.0,1.89,/m/0x67,,Lakeview Terrace,10133217,/m/02q2wnw
+Peter Hinwood,dumb_blonde,Rocky Horror - A Creation,/m/04p32hn,/m/056gh8,/m/02tb6wq,M,29.0,1946.0,1.8,,,The Rocky Horror Picture Show,25491,/m/06cgf
+Sean Astin,self_made_man,"Daniel \Rudy\"" Ruettiger""",/m/07ns0y5,/m/0svqs,/m/02tb8j3,M,22.0,1971.0,1.68,,,Rudy,286893,/m/01q48n
+Hugh Jackman,cultured_badass,Leopold,/m/0chl378,/m/03h_9lg,/m/02tb9_v,M,33.0,1968.0,1.89,/m/0bbz66j,,Kate & Leopold,594240,/m/02thgf
+Margarita Levieva,broken_bird,Annie Newton,/m/0h4zyt8,/m/02638yy,/m/02tbbww,F,27.0,1980.0,1.68,,,The Invisible,3703666,/m/09w8wv
+Ivan Sergei,brainless_beauty,Matt Mateo,/m/0gfr4bq,/m/06khfv,/m/02tbdw7,M,27.0,1971.0,1.88,,,The Opposite of Sex,1204925,/m/04h41v
+James Franco,stoner,Saul Silver,/m/04zk2zp,/m/05bnp0,/m/02vb3yc,M,30.0,1978.0,1.78,/m/048z7l,,Pineapple Express,9264341,/m/02825nf
+Stephen Chow,gadgeteer_genius,Ling Ling Fat,/m/0h2s33m,/m/02mz_6,/m/02vb6nv,M,33.0,1962.0,1.74,/m/03bx0k4,,Forbidden City Cop,2634920,/m/07t8pq
+Ben Kingsley,hitman_with_a_heart,Frank Falenczyk,/m/02r3d2y,/m/016k6x,/m/02vb7cx,M,63.0,1943.0,1.73,/m/0dryh9k,,You Kill Me,6559383,/m/0gbklz
+John Cusack,loser_protagonist,Rob Gordon,/m/05h9q2q,/m/01gkmx,/m/02vb_jp,M,33.0,1966.0,1.87,/m/033tf_,,High Fidelity,160047,/m/025rxjq
+James McAvoy,hitman_with_a_heart,Wesley Gibson,/m/03hfy9w,/m/06mnps,/m/02vb_l5,M,29.0,1979.0,1.7,/m/03lmx1,,Wanted,9395068,/m/0287477
+Errol Flynn,loveable_rogue,Peter Blood,/m/0bhhsfq,/m/0hnp7,/m/02vb_m3,M,25.0,1909.0,1.88,/m/033tf_,,Captain Blood,61481,/m/0gncq
+Anne Hathaway,klutz,Mia Thermopolis,/m/0466s44,/m/02vntj,/m/02vbfh2,F,20.0,1982.0,1.73,/m/02ctzb,Mia Thermopolis,The Princess Diaries,564986,/m/02qk_8
+Brigitte Auber,classy_cat_burglar,Danielle Foussard,/m/0h5tw5b,/m/0gbq1d,/m/02vbgd1,F,27.0,1928.0,,,,To Catch a Thief,239009,/m/01jntj
+Tim Robbins,corrupt_corporate_executive,Gary Winston,/m/0g_kxc3,/m/01nr36,/m/02vbk_v,M,42.0,1958.0,1.956,,Gary Winston,Antitrust,1152416,/m/04bsng
+Jeremy Jordan,big_man_on_campus,Guy Perkins,/m/0cjcq3y,/m/01pp37j,/m/02vbkvz,M,25.0,1973.0,1.78,,,Never Been Kissed,2080169,/m/06ksnc
+Adam Sandler,ditz,Chuck Levine,/m/0cr6b8j,/m/0pz91,/m/02vbl__,M,40.0,1966.0,1.78,/m/041rx,,I Now Pronounce You Chuck and Larry,5752544,/m/0f2sx4
+Billie Whitelaw,eccentric_mentor,Aughra,/m/0h06vf8,/m/04jlgp,/m/02vbpft,F,50.0,1932.0,,,,The Dark Crystal,348292,/m/01yz89
+Joseph Fiennes,romantic_runnerup,Proteus,/m/0bmkqf5,/m/0m31m,/m/02vc177,M,33.0,1970.0,1.83,/m/02w7gg,,Sinbad: Legend of the Seven Seas,281069,/m/01pptc
+Ashley Tisdale,prima_donna,Sharpay Evans,/m/02nwg0x,/m/06tp4h,/m/02vc3dx,F,22.0,1985.0,1.6,/m/041rx,Sharpay Evans,High School Musical 2,4006786,/m/0bc5ny
+Kevin Zegers,big_man_on_campus,Woody Deane,/m/0h29_rq,/m/054gt9,/m/02vc983,M,22.0,1984.0,1.75,,,It's a Boy Girl Thing,8067478,/m/026q8t0
+Craig Bierko,casanova,Timothy,/m/0cb462_,/m/073wmn,/m/02vch3p,M,32.0,1964.0,1.89,/m/041rx,,The Long Kiss Goodnight,690042,/m/03305j
+Michael McShane,absent_minded_professor,Professor Keenbean,/m/0h6dygh,/m/05tkfc,/m/02vchl3,M,39.0,1955.0,,,,Richie Rich,1486573,/m/0557n3
+Bruce Campbell,corrupt_corporate_executive,Charles Travis,/m/0h0z03r,/m/01h8f,/m/02vclwl,M,36.0,1958.0,1.85,,,Congo,961437,/m/03tn80
+Al Pacino,dirty_cop,Rooster,/m/0h6dd70,/m/0bj9k,/m/02vcq3r,M,68.0,1940.0,1.7,/m/0xnvg,,Righteous Kill,11288620,/m/02r6fhw
+Rex Harrison,crazy_jealous_guy,Sir Alfred De Carter,/m/0k6xjb9,/m/0p9qb,/m/02vct43,M,40.0,1908.0,1.854,,,Unfaithfully Yours,3654363,/m/09shgs
+Walter Matthau,grumpy_old_man,Max Goldman,/m/0h36kv8,/m/0gyy0,/m/02vcwz0,M,73.0,1920.0,1.892,/m/041rx,Max Goldman,Grumpy Old Men,1934018,/m/0676by
+Pauly Shore,surfer_dude,Bud Macintosh,/m/0h1wkfp,/m/01sbhvd,/m/02vcwzp,M,27.0,1968.0,1.71,/m/041rx,,Bio-Dome,2198940,/m/06v9zs
+John Cusack,byronic_hero,Brand Hauser,/m/0by40v1,/m/01gkmx,/m/02vczvr,M,41.0,1966.0,1.87,/m/033tf_,,War Inc.,7369863,/m/025_lpc
+Aidan Gillen,evil_prince,Lord Nelson Rathbone,/m/0bnpfl_,/m/059t6d,/m/02vd4f4,M,34.0,1968.0,1.78,/m/03bkbh,,Shanghai Knights,194249,/m/01bl7g
+Sam Bottoms,surfer_dude,Lance B. Johnson,/m/059nbkb,/m/08679c,/m/02vd4sl,M,23.0,1955.0,1.8,,,Apocalypse Now,18951054,/m/0jzw
+Shih Kien,arrogant_kungfu_guy,Han,/m/0h6dvrs,/m/0b6p1b,/m/02vd8hn,M,60.0,1913.0,,,,Enter the Dragon,10193,/m/02rzb
+Omri Katz,granola_person,Max Dennison,/m/06jll0_,/m/05xhwm,/m/02vd92w,M,17.0,1976.0,1.77,/m/04ydrsn,,Hocus Pocus,1962219,/m/06977k
+Chris Klein,big_man_on_campus,Paul Metzler,/m/0g4t99t,/m/03ptnk,/m/02vdf9d,M,20.0,1979.0,1.85,/m/07hwkr,,Election,689969,/m/032_wv
+Chris Klein,brainless_beauty,Paul Metzler,/m/0g4t99t,/m/03ptnk,/m/02vdf9d,M,20.0,1979.0,1.85,/m/07hwkr,,Election,689969,/m/032_wv
+Kal Penn,slacker,Kumar Patel,/m/03h0df_,/m/03l3ln,/m/02vdfc2,M,31.0,1977.0,1.78,/m/0g0x7_,Kumar Patel,Harold & Kumar Escape from Guantanamo Bay,3412648,/m/09b4sb
+Kathleen Turner,chanteuse,Jessica Rabbit,/m/02v8lw,/m/018_lb,/m/02wszk9,F,34.0,1954.0,1.727,/m/07hwkr,,Who Framed Roger Rabbit,76018,/m/0k2sk
+Christopher Walken,corrupt_corporate_executive,Max Zorin,/m/053_9h,/m/016fjj,/m/02xl2ny,M,42.0,1943.0,1.83,/m/01qhm_,,A View to a Kill,583932,/m/02sg5v
+Daniel Craig,heartbroken_badass,James Bond,/m/0clpml,/m/04shbh,/m/03hqwg_,M,40.0,1968.0,1.78,/m/04_bc8,James Bond,Quantum of Solace,2969247,/m/08gsvw
+Adam Sandler,warrior_poet,Zohan,/m/0cb03np,/m/0pz91,/m/03hqx35,M,41.0,1966.0,1.78,/m/041rx,,You Don't Mess with the Zohan,9513043,/m/02ph9tm
+Russell Crowe,fastest_gun_in_the_west,Ben Wade,/m/03hqx_q,/m/06dv3,/m/03hqy08,M,43.0,1964.0,1.8,/m/05748,,3:10 to Yuma,4270540,/m/0btbyn
+Deborah Foreman,valley_girl,Julie Richman,/m/096452v,/m/0341ht,/m/03jprhz,F,20.0,1962.0,1.65,,,Valley Girl,2406870,/m/079xtj
+Roger Allam,corrupt_corporate_executive,Royalton,/m/0bj9dj9,/m/046xyf,/m/03jqz37,M,54.0,1953.0,1.82,/m/02w7gg,,Speed Racer,8737659,/m/027gy0k
+Kevin Gage,psycho_for_hire,Waingro,/m/0h60x3r,/m/07f469,/m/03jrl1d,M,36.0,1959.0,,,,Heat,43566,/m/0bxsk
+Kevin J. O'Connor,coward,Beni Gabor,/m/045rkb1,/m/09t254,/m/03jskk3,M,35.0,1963.0,1.85,,,The Mummy,253828,/m/01ln5z
+Rutger Hauer,bounty_hunter,Nick Randall,/m/0h2n0xs,/m/09byk,/m/03jsm0f,M,42.0,1944.0,1.85,/m/05l3g_,,Wanted: Dead or Alive,3394852,/m/0999cx
+Peter Facinelli,big_man_on_campus,Mike Dexter,/m/0b7bkhp,/m/07ncs0,/m/03jsnmf,M,24.0,1973.0,1.77,/m/0xnvg,,Can't Hardly Wait,475977,/m/02f25m
+Peter Facinelli,jerk_jock,Mike Dexter,/m/0b7bkhp,/m/07ncs0,/m/03jsnmf,M,24.0,1973.0,1.77,/m/0xnvg,,Can't Hardly Wait,475977,/m/02f25m
+William Petersen,retired_outlaw,Patrick Floyd 'Pat' Garrett,/m/0h30sfb,/m/038bht,/m/03jsysn,M,37.0,1953.0,1.791,/m/0dqqwy,,Young Guns II,675213,/m/031zk3
+Chris Bauer,psycho_for_hire,George Higgins,/m/0glls2h,/m/08s_lw,/m/03jsz47,M,32.0,1966.0,1.89,,,8mm,1364770,/m/04wzkz
+Ken Watanabe,father_to_his_men,General Kuribayashi,/m/0gkf3tl,/m/01_s7f,/m/03jtctp,M,47.0,1959.0,1.85,/m/019kn7,,Letters from Iwo Jima,14725310,/m/0gy0l_
+Lennie James,stupid_crooks,Sol,/m/0br0cgl,/m/034js0,/m/03jtd2p,M,34.0,1965.0,1.765,/m/04608z,,Snatch,707808,/m/034hwx
+David Cross,corrupt_corporate_executive,Ian Hawke,/m/07ylvbk,/m/0738b8,/m/03kyztz,M,43.0,1964.0,1.75,/m/03vv99,Ian Hawke,Alvin and the Chipmunks,11244593,/m/02r4y3t
+Tom Waits,trickster,Mr. Nick,/m/07ym4h3,/m/03h_fqv,/m/03kz4l5,M,59.0,1949.0,1.803,,,The Imaginarium of Dr. Parnassus,11312191,/m/02r79_h
+Bruce Greenwood,father_to_his_men,Christopher Pike,/m/0pk21,/m/01yfm8,/m/03ld2yg,M,52.0,1956.0,1.8,/m/044038p,,Star Trek,3071743,/m/08phg9
+Javier Bardem,psycho_for_hire,Anton Chigurh,/m/0dsbmr9,/m/01713c,/m/03lgvz6,M,38.0,1969.0,1.83,/m/03ttfc,,No Country for Old Men,3920193,/m/0b6tzs
+Kevin Peter Hall,egomaniac_hunter,The Predator,/m/03q1l23,/m/0473wx,/m/03lpp78,M,35.0,1955.0,2.2,/m/0x67,The Predator,Predator 2,620034,/m/02xd2b
+Emilio Estevez,young_gun,William H. 'Billy the Kid' Bonney,/m/0gyhwpk,/m/01z7s_,/m/03lrjk0,M,28.0,1962.0,1.638,/m/042gtr,,Young Guns II,675213,/m/031zk3
+Benicio del Toro,pupil_turned_to_evil,Aaron Hallam,/m/0c1lc1g,/m/01qscs,/m/03ls4jv,M,36.0,1967.0,1.85,/m/09v5bdn,,The Hunted,690105,/m/0330ds
+Robbie Gee,stupid_crooks,Vinny,/m/0br0cj1,/m/034jts,/m/03lsltz,M,36.0,1964.0,,,,Snatch,707808,/m/034hwx
+Elizabeth Hurley,brainless_beauty,Brace Channing,/m/0gd0_2q,/m/01pnn3,/m/03lvf22,F,33.0,1965.0,1.73,/m/02w7gg,,My Favorite Martian,7887331,/m/026hpg_
+Simon Pegg,loser_protagonist,Dennis,/m/0gxnhw4,/m/012x2b,/m/03lvx8n,M,37.0,1970.0,1.78,,,"Run, Fat Boy, Run",8172248,/m/026rrf_
+Ashley Tisdale,prima_donna,Sharpay Evans,/m/02nwg0x,/m/06tp4h,/m/03lyytc,F,23.0,1985.0,1.6,/m/041rx,Sharpay Evans,High School Musical 3: Senior Year,9391085,/m/0286_hv
+Dakota Fanning,junkie_prophet,Cassie Holmes,/m/0gxnnm3,/m/0fthdk,/m/040kc5w,F,14.0,1994.0,1.63,/m/01qhm_,,Push,13237979,/m/03bzwns
+Simon Pegg,loser_protagonist,Sidney Young,/m/0gxnhyk,/m/012x2b,/m/040l_q8,M,38.0,1970.0,1.78,,,How to Lose Friends & Alienate People,14280823,/m/03c_4fq
+Josh Peck,stoner,Luke Shapiro,/m/0h16l5j,/m/034047,/m/040lm10,M,21.0,1986.0,1.83,/m/041rx,,The Wackness,13947064,/m/03cp0zq
+Jeremy Davies,coward,Cpl. Timothy P. Upham,/m/0bnls0w,/m/078mgh,/m/040qvsz,M,28.0,1969.0,1.75,,,Saving Private Ryan,28269,/m/07024
+Christopher Plummer,egomaniac_hunter,Charles Muntz,/m/05ssfhp,/m/01ycbq,/m/045_c9z,M,79.0,1929.0,1.778,/m/044038p,,Up,11659396,/m/02rn00y
+Ed Asner,grumpy_old_man,Carl Fredricksen,/m/05ssfj5,/m/02tkzn,/m/045_cb3,M,79.0,1929.0,1.7,,,Up,11659396,/m/02rn00y
+Ronny Cox,the_chief,Lt. Andrew Bogomil,/m/0h5r4kj,/m/032qgs,/m/045xnnw,M,46.0,1938.0,1.88,,,Beverly Hills Cop,680398,/m/032cs4
+Busy Philipps,valley_girl,Karen,/m/0h2jt3r,/m/05bmn7,/m/045xr4n,F,24.0,1979.0,1.67,,,White Chicks,871056,/m/03k9bl
+Morgan Freeman,gadgeteer_genius,Lucius Fox,/m/03zql5,/m/055c8,/m/045yrqg,M,71.0,1937.0,1.88,/m/0x67,Lucius Fox,The Dark Knight,4276475,/m/0btpm6
+Viggo Mortensen,cultured_badass,Everett Hitch,/m/0gy9zlv,/m/01ps2h8,/m/04601vx,M,49.0,1958.0,1.803,/m/0dqqwy,,Appaloosa,15398161,/m/03m71s1
+Alexis Dziena,brainless_beauty,Gemma Honeycutt,/m/0gyjz5c,/m/07jwkn,/m/04dddz5,F,23.0,1984.0,1.57,/m/0xnvg,,Fool's Gold,14291637,/m/03c_lhp
+Anna Faris,brainless_beauty,Shelley Darlingson,/m/0c1hqmz,/m/01pk3z,/m/04dgw4t,F,31.0,1976.0,1.65,/m/07bch9,,The House Bunny,18640305,/m/0408m53
+Humphrey Bogart,hardboiled_detective,Sam Spade,/m/027zkw,/m/03n6r,/m/04dmkpj,M,,1899.0,1.74,/m/07mqps,Sam Spade,The Maltese Falcon,4593958,/m/0cbn7c
+Matthew Broderick,charmer,Harold Hill,/m/09j606t,/m/01vlj1g,/m/04hv61w,M,40.0,1962.0,1.73,/m/041rx,Harold Hill,The Music Man,6917005,/m/0gwypk
+Matthew Broderick,loveable_rogue,Harold Hill,/m/09j606t,/m/01vlj1g,/m/04hv61w,M,40.0,1962.0,1.73,/m/041rx,Harold Hill,The Music Man,6917005,/m/0gwypk
+Paul Newman,retired_outlaw,Butch Cassidy,/m/0gfnj6s,/m/0d6d2,/m/04ky2tz,M,44.0,1925.0,1.77,/m/027n1m6,,Butch Cassidy and the Sundance Kid,99031,/m/0p9tm
+Amanda Righetti,final_girl,Whitney Miller,/m/08lcsjv,/m/04zz22,/m/04ls8ty,F,25.0,1983.0,1.74,/m/02ctzb,,Friday the 13th,13053911,/m/04czgnm
+James Marsden,romantic_runnerup,Lon Hammond Jr.,/m/02nwq01,/m/042ly5,/m/04lsjwd,M,31.0,1973.0,1.79,,,The Notebook,17917662,/m/047tsx3
+Ben Kingsley,evil_prince,Nizam,/m/07ylpzy,/m/016k6x,/m/04m5488,M,66.0,1943.0,1.73,/m/0dryh9k,,Prince of Persia: The Sands of Time,5866831,/m/047gn4y
+Luke Goss,evil_prince,Prince Nuada,/m/0ghfm4n,/m/06z09y,/m/04m9lhl,M,39.0,1968.0,1.85,/m/02w7gg,,Hellboy 2: The Golden Army,5292154,/m/0dcz8_
+Robert Shaw,psycho_for_hire,Red Grant,/m/04dqbc,/m/0164r9,/m/04p7pxj,M,36.0,1927.0,1.8,/m/02w7gg,,From Russia with Love,6446071,/m/025twgt
+Johnny Depp,broken_bird,Mad Hatter,/m/0184s5,/m/0jfx1,/m/04q4dng,M,46.0,1963.0,1.78,/m/01qhm_,,Alice in Wonderland,14482638,/m/04jpg2p
+Everett McGill,psycho_for_hire,Col. Paul Tanner,/m/0gd0_px,/m/09c8fj,/m/04q604c,M,51.0,1945.0,1.89,,,My Fellow Americans,798584,/m/03cygf
+Ted Knight,grumpy_old_man,Judge Elihu Smails,/m/04w0v_y,/m/033jg6,/m/04w0v_v,M,56.0,1923.0,1.75,,,Caddyshack,217982,/m/01fxw4
+Alex Karras,dumb_muscle,Mongo,/m/04w0vjr,/m/03l7gl,/m/04w0vjn,M,38.0,1935.0,1.88,,,Blazing Saddles,3837,/m/018f8
+Morgan Freeman,retired_outlaw,Ned Logan,/m/04xg259,/m/055c8,/m/04xg29q,M,55.0,1937.0,1.88,/m/0x67,,Unforgiven,133574,/m/0_92w
+Danny McBride,stoner,Red,/m/04zk2_n,/m/02wycg2,/m/04zk2_k,M,31.0,1976.0,1.78,/m/03bkbh,,Pineapple Express,9264341,/m/02825nf
+Claude Rains,loveable_rogue,Capt. Louis Renault,/m/047y0bb,/m/0h1q6,/m/05286qg,M,,1889.0,1.69,,,Casablanca,57585,/m/0ft18
+Lee Byung-Hun,arrogant_kungfu_guy,Storm Shadow,/m/071s36,/m/04t5vf,/m/052dfd5,M,39.0,1970.0,1.77,/m/01xhh5,,G.I. Joe: The Rise of Cobra,13734892,/m/03qcfvw
+Kevin James,loser_protagonist,Paul Blart,/m/0gyp72m,/m/03xb2w,/m/059sm0m,M,43.0,1965.0,1.73,,,Paul Blart: Mall Cop,16368206,/m/03why2r
+Anna Faris,dumb_blonde,Brandi,/m/0gy9z5m,/m/01pk3z,/m/059sp8v,F,32.0,1976.0,1.65,/m/07bch9,,Observe and Report,17916735,/m/047m6mv
+Clint Eastwood,grumpy_old_man,Walt Kowalski,/m/059t438,/m/0bwh6,/m/059t435,M,78.0,1930.0,1.88,/m/09vc4s,,Gran Torino,17016725,/m/04q01mn
+Jason Lee,bromantic_foil,Banky Edwards,/m/03f62k,/m/034np8,/m/05ckj7h,M,26.0,1970.0,1.87,,,Chasing Amy,60293,/m/0gd92
+Denzel Washington,crazy_survivalist,Eli,/m/07ybs7_,/m/0pmhf,/m/05nv915,M,55.0,1954.0,1.84,/m/0x67,,The Book of Eli,20450767,/m/04ydr95
+Woody Harrelson,heartbroken_badass,Tallahassee,/m/05skv2c,/m/0170s4,/m/05skv28,M,48.0,1961.0,1.78,,,Zombieland,21835208,/m/05p1qyh
+Ed Helms,doormat,Stu Price,/m/05yrpzd,/m/04zkj5,/m/05srhg_,M,35.0,1974.0,1.83,,Stu Price,The Hangover,21918632,/m/05p1tzf
+Mickey Rourke,warrior_poet,Tool,/m/08lds9y,/m/02m501,/m/05tb1tv,M,57.0,1952.0,1.8,/m/033tf_,,The Expendables,20996974,/m/053rxgm
+Jim Carrey,warrior_poet,Horton the Elephant,/m/04xnbs,/m/0lx2l,/m/05tgl99,M,46.0,1962.0,1.867,/m/0g8_vp,,Horton Hears a Who!,6002183,/m/0fk25m
+Ricky Gervais,loser_protagonist,Mark Bellison,/m/07zplnv,/m/015pxr,/m/062xh9l,M,48.0,1961.0,1.73,/m/02w7gg,,The Invention of Lying,22726015,/m/05zpghd
+Garrett Hedlund,playful_hacker,Sam Flynn,/m/083dhpq,/m/03fcgz,/m/062y97x,M,26.0,1984.0,1.89,,,Tron: Legacy,22547607,/m/05zy2cy
+Justin Bartha,slacker,Aram Finklestein,/m/0h2gzk_,/m/062zhg,/m/064yxrp,M,30.0,1978.0,1.73,/m/041rx,,The Rebound,19920152,/m/04qbd7f
+Jeff Bridges,granola_person,Bill Django,/m/08khprr,/m/0flw6,/m/06679y8,M,59.0,1949.0,1.85,,,The Men Who Stare at Goats,23322195,/m/0660b9b
+Leonardo DiCaprio,byronic_hero,Cobb,/m/084lj8v,/m/0dvmd,/m/0667g_f,M,35.0,1974.0,1.83,/m/09kr66,,Inception,23270459,/m/0661ql3
+Leonardo DiCaprio,gentleman_thief,Cobb,/m/084lj8v,/m/0dvmd,/m/0667g_f,M,35.0,1974.0,1.83,/m/09kr66,,Inception,23270459,/m/0661ql3
+John Hurt,bounty_hunter,Jellon Lamb,/m/0gjq03p,/m/015wnl,/m/06wh7_d,M,64.0,1940.0,1.75,/m/02w7gg,,The Proposition,2912982,/m/08c4yn
+Will Arnett,morally_bankrupt_banker,Mr. Perkins,/m/084jfbr,/m/03q43g,/m/06zzgw6,M,40.0,1970.0,1.892,/m/044038p,,Despicable Me,23614710,/m/06zkfsy
+Gerard Butler,bounty_hunter,Milo Boyd,/m/0bb9gjk,/m/038rzr,/m/0772tb3,M,40.0,1969.0,1.88,/m/02g7sp,,The Bounty Hunter,23535297,/m/06w9zfg
+Jason Lee,bromantic_foil,Brodie Bruce,/m/0cx_bx,/m/034np8,/m/07ldy8x,M,25.0,1970.0,1.87,,,Mallrats,236651,/m/01jc1h
+Jason Lee,slacker,Brodie Bruce,/m/0cx_bx,/m/034np8,/m/07ldy8x,M,25.0,1970.0,1.87,,,Mallrats,236651,/m/01jc1h
+Tom Hardy,loveable_rogue,Eames,/m/084ljbd,/m/05xf75,/m/07lkzl3,M,32.0,1977.0,1.78,/m/02w7gg,,Inception,23270459,/m/0661ql3
+Zachary Levi,charmer,Flynn Rider,/m/083r1cc,/m/07v62b,/m/07sl05m,M,30.0,1980.0,1.93,,,Tangled,619728,/m/02xbyr
+Danny McBride,stoner,Thadeous,/m/07zm_yq,/m/02wycg2,/m/07zm_ym,M,34.0,1976.0,1.78,/m/03bkbh,,Your Highness,24083267,/m/07kg878
+James Franco,stoner,Fabious,/m/0ghc_dq,/m/05bnp0,/m/07zm_zv,M,32.0,1978.0,1.78,/m/048z7l,,Your Highness,24083267,/m/07kg878
+Fran Kranz,stoner,Marty Mikalski,/m/083z84w,/m/03qj9g1,/m/083z84s,M,30.0,1981.0,1.78,,,The Cabin in the Woods,12925911,/m/05b6rdt
+Oscar Isaac,crazy_jealous_guy,Blue,/m/0ggg_h_,/m/0czv3f,/m/0850_tx,M,31.0,1980.0,1.82,,,Sucker Punch,21843425,/m/07sc6nw
+Tom Hiddleston,byronic_hero,Loki,/m/05pnb1,/m/03h4d3v,/m/0855mjk,M,30.0,1981.0,1.87,,,Thor,12673434,/m/062zjtt
+Tom Hiddleston,trickster,Loki,/m/05pnb1,/m/03h4d3v,/m/0855mjk,M,30.0,1981.0,1.87,,,Thor,12673434,/m/062zjtt
+Lil Dagover,ophelia,Jane Olsen,/m/0h66s2w,/m/047txhl,/m/08cqh60,F,,1887.0,,,,The Cabinet of Dr. Caligari,173650,/m/017f6j
+Danny Huston,corrupt_corporate_executive,Jack Bennett,/m/08d9jtl,/m/07vc_9,/m/08cwjsb,M,47.0,1962.0,1.88,,,Edge of Darkness,18949667,/m/04jn6y7
+Ade,stupid_crooks,Tyrone,/m/0br0ck2,/m/04f1zjp,/m/09hy0ym,M,30.0,,1.82,,,Snatch,707808,/m/034hwx
+Jeff Anderson,bromantic_foil,Randal Graves,/m/05gmpml,/m/09594c,/m/09vvrb_,M,36.0,1970.0,1.82,,Randal Graves,Clerks II,1283050,/m/04pygz
+Dustin Milligan,brainless_beauty,Brad,/m/0bdxkb4,/m/0fg6jn,/m/0b3trzf,M,24.0,1985.0,1.79,,,Extract,19221106,/m/04lfwh3
+Lee Marvin,drill_sargeant_nasty,Maj. John Reisman,/m/0h2l3nn,/m/04n_g,/m/0b78ft6,M,60.0,1924.0,1.88,,,The Dirty Dozen: The Next Mission,23913058,/m/076w_th
+John Malkovich,crazy_survivalist,Marvin Boggs,/m/0b7n5yn,/m/017r13,/m/0b7n5zy,M,56.0,1953.0,1.83,/m/0ffjqy,,Red,25854460,/m/09v6jyh
+Wayne Morris,coward,Lt. Roget / Singing man,/m/0cc_887,/m/088cqg,/m/0cc_884,M,42.0,1914.0,,,,Paths of Glory,23255,/m/05sjq
+Natalie Portman,broken_bird,Nina Sayers,/m/0fq9hc5,/m/09l3p,/m/0cccx3m,F,29.0,1981.0,1.6,/m/04ydrsn,,Black Swan,24480838,/m/09k56b7
+Daniel Gillies,casanova,Johnny Wickham,/m/0h5vppr,/m/06g0q4,/m/0cf_wtd,M,28.0,1976.0,1.85,,,Bride and Prejudice,1137578,/m/049hk9
+John Lynch,father_to_his_men,Wolfstan,/m/0gff4wz,/m/074s4p,/m/0cg03cg,M,48.0,1961.0,,,,Black Death,23887068,/m/076w4mr
+James Marsden,brainless_beauty,Jack Bartlett,/m/0h1633q,/m/042ly5,/m/0cg2m9s,M,27.0,1973.0,1.79,,,Sugar & Spice,1232511,/m/04km9l
+Stephen Lang,coward,Ike Clanton,/m/0hgs542,/m/08c986,/m/0cg418l,M,41.0,1952.0,1.79,,,Tombstone,525113,/m/02ljhg
+John Larch,the_chief,The Chief,/m/0hdty2v,/m/09vw6_,/m/0cg54hp,M,57.0,1914.0,,,The Chief,Dirty Harry,301798,/m/01r_0s
+Ritchie Coster,corrupt_corporate_executive,Dietrich Banning,/m/0gm4xyk,/m/03hlp6v,/m/0cgn58l,M,35.0,1967.0,1.85,/m/02w7gg,,The Tuxedo,277713,/m/01pk7l
+Chris Carmack,jerk_jock,Garth,/m/0d2jcyq,/m/04bcy1,/m/0d2jcym,M,29.0,1980.0,1.85,,,Alpha and Omega,22526086,/m/05zqxpt
+Stuart Townsend,casanova,Dorian Gray,/m/02lwxf,/m/03v738,/m/0dkcy1f,M,30.0,1972.0,1.8,/m/03bkbh,Dorian Gray,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Stuart Townsend,cultured_badass,Dorian Gray,/m/02lwxf,/m/03v738,/m/0dkcy1f,M,30.0,1972.0,1.8,/m/03bkbh,Dorian Gray,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Paige O'Hara,doormat,Belle,/m/0c4ykp,/m/03wbb8,/m/0fprkm7,F,41.0,1956.0,,,,Beauty and the Beast: The Enchanted Christmas,481293,/m/02fpqm
+Ryan Gosling,tranquil_fury,Driver,/m/0gl4j9z,/m/03m6_z,/m/0g4vml8,M,30.0,1980.0,1.85,/m/044038p,,Drive,30273553,/m/0g4vmj8
+Fred Savage,crazy_jealous_guy,Bobby Tennison,/m/0h1zzrq,/m/031_b,/m/0g9k2p6,M,19.0,1976.0,1.78,/m/041rx,,No One Would Tell,23767889,/m/06zmc33
+Junjie Qin,evil_prince,Prince Yu,/m/0h614jz,/m/0gbxx9z,/m/0gbxx9x,,,,,,,Curse of the Golden Flower,5318353,/m/0df92l
+Desi Lydic,brainless_beauty,Mia,/m/0h6cvd6,/m/0gb_fvy,/m/0gc3g1p,F,28.0,1981.0,1.7,,,Stan Helsing,24870348,/m/09gf6sk
+Desi Lydic,dumb_blonde,Mia,/m/0h6cvd6,/m/0gb_fvy,/m/0gc3g1p,F,28.0,1981.0,1.7,,,Stan Helsing,24870348,/m/09gf6sk
+Tom Hollander,psycho_for_hire,Isaacs,/m/0gh94vg,/m/0755wz,/m/0gh94vc,M,43.0,1967.0,1.651,/m/02w7gg,,Hanna,28370997,/m/0crj7yz
+Russell Brand,ditz,Arthur Bach,/m/02nwbd0,/m/06crng,/m/0ghdkxh,M,35.0,1975.0,1.85,/m/02w7gg,Arthur Bach,Arthur,28485791,/m/0crgr4d
+Tom Hiddleston,officer_and_a_gentleman,Captain Nicholls,/m/0gw7qrk,/m/03h4d3v,/m/0gkcn1g,M,30.0,1981.0,1.87,,,War Horse,27754718,/m/0cc5qkt
+Kirsten Dunst,ophelia,Justine,/m/0gkj0bt,/m/04fzk,/m/0gkj0cn,F,29.0,1982.0,1.7,/m/01qhm_,,Melancholia,26971354,/m/0fpkhkz
+Jesse Eisenberg,ditz,Nick,/m/0gvd8d1,/m/057176,/m/0gvd8dq,M,27.0,1983.0,1.75,/m/041rx,,30 Minutes or Less,28370864,/m/0crfcdl
+Tom Cruise,corrupt_corporate_executive,Les Grossman,/m/0gx9sk1,/m/07r1h,/m/0gyjwgg,M,46.0,1962.0,1.7,/m/02ctzb,,Tropic Thunder,11942501,/m/02ryz24
+Chia Hui Liu,arrogant_kungfu_guy,Pai Mei,/m/04s2sc,/m/06vz5f,/m/0gz3h92,M,48.0,1955.0,1.75,/m/02p1pl6,Pai Mei,Kill Bill Volume 2,525270,/m/0gyv0b4
+Peter Cullen,egomaniac_hunter,The Predator,/m/0h34xg8,/m/03dn9v,/m/0h34xg2,M,45.0,1941.0,1.73,/m/0g8_vp,The Predator,Predator,230481,/m/01hjmb
+Seth Rogen,byronic_hero,Britt Reid,/m/0g4kl4r,/m/05txrz,/m/0h5m_9x,M,28.0,1982.0,1.797,/m/041rx,,The Green Hornet,24195690,/m/07k8rt4
+David Murray,corrupt_corporate_executive,James McCullen - 1641,/m/0hccss6,/m/0bbcfrn,/m/0h5q191,M,39.0,1970.0,,,,G.I. Joe: The Rise of Cobra,13734892,/m/03qcfvw
+Peter Weller,fastest_gun_in_the_west,RoboCop,/m/0h3w0g,/m/04t969,/m/0h5q82q,M,40.0,1947.0,1.83,,,RoboCop,445066,/m/0299hs
+Lance Fenton,jerk_jock,Kurt Kelly,/m/0h5slxs,/m/0c1632,/m/0h5slxp,M,,,,,,Heathers,13901,/m/03m3j
+John Howard,self_made_man,George Kittredge,/m/0h6f8kg,/m/041y5k,/m/0h6f8kc,M,27.0,1913.0,1.77,,,The Philadelphia Story,62592,/m/0gxfz
+Bruce Boxleitner,bruiser_with_a_soft_center,Tron,/m/0cgfrn,/m/025z93,/m/0hcfdd1,M,32.0,1950.0,1.88,/m/02ctzb,,Tron,312757,/m/01tdmp
+Takashi Matsuyama,crazy_jealous_guy,Takeo,/m/0hgc9dt,/m/0drj3_,/m/0hgc9dq,M,44.0,1960.0,,,,The Grudge,1094719,/m/045j3w
+Robert Downey Jr.,byronic_hero,Tony Stark,/m/0ghbqqc,/m/016z2j,/m/0j1__hv,M,43.0,1965.0,1.75,/m/041rx,Tony Stark,Iron Man,5676692,/m/0dzlbx
+Robert Downey Jr.,casanova,Tony Stark,/m/0ghbqqc,/m/016z2j,/m/0j1__hv,M,43.0,1965.0,1.75,/m/041rx,Tony Stark,Iron Man,5676692,/m/0dzlbx
+Robert Downey Jr.,gadgeteer_genius,Tony Stark,/m/0ghbqqc,/m/016z2j,/m/0j1__hv,M,43.0,1965.0,1.75,/m/041rx,Tony Stark,Iron Man,5676692,/m/0dzlbx
+Steve Guttenberg,self_made_man,Roger Callaway,/m/09rmr6g,/m/035wq7,/m/0j_0s0,M,37.0,1958.0,,/m/048z7l,,It Takes Two,4446490,/m/0c2x61
+Lionel Barrymore,corrupt_corporate_executive,Henry F. Potter,/m/0hgyxj8,/m/0hnkp,/m/0j_11c,M,,1878.0,1.83,,,It's a Wonderful Life,60164,/m/0gcpc
+Lionel Barrymore,morally_bankrupt_banker,Henry F. Potter,/m/0hgyxj8,/m/0hnkp,/m/0j_11c,M,,1878.0,1.83,,,It's a Wonderful Life,60164,/m/0gcpc
+Jesse Metcalfe,big_man_on_campus,John Tucker,/m/0h25_zp,/m/058ncz,/m/0j_6gm,M,27.0,1978.0,1.772,/m/06v41q,,John Tucker Must Die,5095233,/m/0d2fvy
+Sophia Bush,granola_person,Beth,/m/0gxt75x,/m/05jv50,/m/0j_6h2,F,24.0,1982.0,1.63,/m/0222qb,,John Tucker Must Die,5095233,/m/0d2fvy
+Liam Neeson,father_to_his_men,Capt. Mikhail Polenin,/m/0chkvn7,/m/0h5g_,/m/0j_9gv,M,50.0,1952.0,1.93,/m/03bkbh,,K-19: The Widowmaker,43307,/m/0bw20
+Leo Fitzpatrick,casanova,Telly,/m/0h5nn1p,/m/06hg0w,/m/0j_flm,M,,1978.0,1.79,,,Kids,615418,/m/02ww1t
+David Carradine,crazy_jealous_guy,Bill,/m/03py3d,/m/02p5hf,/m/0j_fvv,M,66.0,1936.0,1.85,/m/07bch9,,Kill Bill Volume 1,301314,/m/01rxyb
+David Carradine,heartbroken_badass,Bill,/m/03py3d,/m/02p5hf,/m/0j_fvv,M,66.0,1936.0,1.85,/m/07bch9,,Kill Bill Volume 1,301314,/m/01rxyb
+David Carradine,master_swordsman,Bill,/m/03py3d,/m/02p5hf,/m/0j_fvv,M,66.0,1936.0,1.85,/m/07bch9,,Kill Bill Volume 1,301314,/m/01rxyb
+Seth Rogen,slacker,Ben Stone,/m/06fcjf2,/m/05txrz,/m/0j_ks0,M,25.0,1982.0,1.797,/m/041rx,,Knocked Up,4295195,/m/0bvn25
+Russell Crowe,crazy_jealous_guy,Bud White,/m/02h75l1,/m/06dv3,/m/0j_n0t,M,33.0,1964.0,1.8,/m/05748,,L.A. Confidential,142457,/m/011yqc
+Peter O'Toole,warrior_poet,T. E. Lawrence,/m/02nw8h0,/m/0h0jz,/m/0j_tdt,M,30.0,1932.0,1.91,/m/02g7sp,T. E. Lawrence,Lawrence of Arabia,43452,/m/0bx0l
+Daryl Hannah,broken_bird,Chelsea Deardon,/m/0gz4ybp,/m/01xv77,/m/0j_wlm,F,25.0,1960.0,1.78,,,Legal Eagles,3748765,/m/09yxrl
+Reese Witherspoon,valley_girl,Elle Woods,/m/0blvvf,/m/0n6f8,/m/0j_wm4,F,25.0,1976.0,1.56,/m/07bch9,Elle Woods,Legally Blonde,444267,/m/0296vv
+David Wenham,storyteller,Dilios,/m/0gkd1jw,/m/02ck7w,/m/0jsg_x,M,41.0,1965.0,1.83,,,300,2465797,/m/07f_t4
+Martin Short,fastest_gun_in_the_west,Ned Nederlander,/m/02nw95z,/m/01trf3,/m/0jshd9,M,36.0,1950.0,1.71,/m/033njm,,\u00a1Three Amigos!,905971,/m/03nnzk
+Christopher Eccleston,father_to_his_men,Major Henry West,/m/0gkmfjb,/m/02cbs0,/m/0jskmk,M,38.0,1964.0,1.83,/m/02w7gg,,28 Days Later,145892,/m/012kyx
+Adam Sandler,ditz,Henry Roth,/m/02nw9b3,/m/0pz91,/m/0jsll5,M,37.0,1966.0,1.78,/m/041rx,Henry Roth,50 First Dates,477099,/m/02f6g5
+Zack Ward,bully,Scut Farkus,/m/02r4d6z,/m/0ckr4p,/m/0jsprx,M,13.0,1970.0,,,,A Christmas Story,932424,/m/03r6_w
+Kevin Kline,crazy_jealous_guy,Otto,/m/0h5w1j7,/m/01gbn6,/m/0jsqxv,M,40.0,1947.0,1.88,/m/01qhm_,,A Fish Called Wanda,308898,/m/01sxly
+Heather Langenkamp,final_girl,Nancy Thompson,/m/0c6br4,/m/036j91,/m/0jsvgr,F,20.0,1964.0,1.6,,Nancy Thompson,A Nightmare on Elm Street,3028191,/m/08ll52
+Michael Douglas,crazy_jealous_guy,Steven Taylor,/m/0gd1y56,/m/0kjgl,/m/0jsw40,M,53.0,1944.0,1.78,/m/063k3h,,A Perfect Murder,189088,/m/019wds
+Sigourney Weaver,final_girl,Ellen Ripley,/m/02xd83,/m/0h96g,/m/0jt7sz,F,29.0,1949.0,1.82,,Ellen Ripley,Alien,23487440,/m/067ghz
+Paul Reiser,corrupt_corporate_executive,Carter Burke,/m/0h56vfg,/m/01y0y6,/m/0jt8n6,M,29.0,1957.0,1.78,/m/041rx,,Aliens,213472,/m/01f8hf
+Paul Reiser,coward,Carter Burke,/m/0h56vfg,/m/01y0y6,/m/0jt8n6,M,29.0,1957.0,1.78,/m/041rx,,Aliens,213472,/m/01f8hf
+Bette Davis,prima_donna,Margo Channing,/m/02nwb2m,/m/0h1m9,/m/0jt8y2,F,41.0,1908.0,1.6,,,All About Eve,41881,/m/0bj25
+Jason Robards,the_editor,Ben Bradlee,/m/0h6ckbj,/m/01tcf7,/m/0jt9_0,M,53.0,1922.0,1.765,,,All the President's Men,3876620,/m/0b4lkx
+Christian Bale,morally_bankrupt_banker,Patrick Bateman,/m/02d69c,/m/01wy5m,/m/0jtfcj,M,25.0,1974.0,1.83,/m/02w7gg,,American Psycho,4846576,/m/0cqr0q
+Marlon Brando,warrior_poet,Colonel Walter E. Kurtz,/m/09gj95b,/m/04__f,/m/0jtp23,M,55.0,1924.0,1.75,/m/07mqps,,Apocalypse Now,18951054,/m/0jzw
+Martin Sheen,father_to_his_men,Captain Benjamin L. Willard,/m/04f0mlz,/m/0hvb2,/m/0jtp2f,M,38.0,1940.0,1.7,/m/042gtr,,Apocalypse Now,18951054,/m/0jzw
+Cary Grant,psycho_for_hire,Mortimer Brewster,/m/0gxrjmz,/m/09qh1,/m/0jtr3s,M,40.0,1904.0,1.87,,,Arsenic and Old Lace,787704,/m/03c77z
+Crispin Glover,doormat,George McFly,/m/023n2z,/m/023n39,/m/0jty5w,M,21.0,1964.0,1.85,/m/065b6q,George McFly,Back to the Future,42993,/m/0bt4g
+Thomas F. Wilson,bully,Biff Tannen,/m/02gbn3,/m/03d_qmm,/m/0jty60,M,26.0,1959.0,1.91,,Biff Tannen,Back to the Future,42993,/m/0bt4g
+Thomas F. Wilson,jerk_jock,Biff Tannen,/m/02gbn3,/m/03d_qmm,/m/0jty60,M,26.0,1959.0,1.91,,Biff Tannen,Back to the Future,42993,/m/0bt4g
+Harvey Keitel,dirty_cop,The Lieutenant,/m/0bdwp2l,/m/0klh7,/m/0jtz28,M,53.0,1939.0,1.71,/m/022dp5,,Bad Lieutenant,1238102,/m/04l40p
+Richard White,egomaniac_hunter,Gaston,/m/04v2dz,/m/03f0w6g,/m/0jv4jc,M,38.0,1953.0,,,,Beauty and the Beast,133462,/m/0_7w6
+Richard White,jerk_jock,Gaston,/m/04v2dz,/m/03f0w6g,/m/0jv4jc,M,38.0,1953.0,,,,Beauty and the Beast,133462,/m/0_7w6
+Cameron Diaz,granola_person,Lotte Schwartz,/m/04dwxq2,/m/0bksh,/m/0jv6mp,F,27.0,1972.0,1.75,/m/042gtr,,Being John Malkovich,349941,/m/01z452
+Ewan McGregor,storyteller,Ed Bloom - Young,/m/0bx8kcp,/m/0k269,/m/0jvbkh,M,31.0,1971.0,1.79,/m/03lmx1,,Big Fish,431014,/m/027pfg
+Keanu Reeves,stoner,"Ted \Theodore\"" Logan""",/m/02qfsps,/m/0479b,/m/0jvcqg,M,24.0,1964.0,1.86,/m/03bkbh,"Ted ""Theodore"" Logan",Bill & Ted's Excellent Adventure,23808966,/m/014z96
+Keanu Reeves,surfer_dude,"Ted \Theodore\"" Logan""",/m/02qfsps,/m/0479b,/m/0jvcqg,M,24.0,1964.0,1.86,/m/03bkbh,"Ted ""Theodore"" Logan",Bill & Ted's Excellent Adventure,23808966,/m/014z96
+Alex Winter,stoner,"Bill S. Preston, Esq.",/m/0g2jk0,/m/04xjzx,/m/0jvcqm,M,23.0,1965.0,,/m/041rx,,Bill & Ted's Excellent Adventure,23808966,/m/014z96
+Alex Winter,surfer_dude,"Bill S. Preston, Esq.",/m/0g2jk0,/m/04xjzx,/m/0jvcqm,M,23.0,1965.0,,/m/041rx,,Bill & Ted's Excellent Adventure,23808966,/m/014z96
+Wesley Snipes,master_swordsman,Blade,/m/02jfzz,/m/02lymt,/m/0jvh78,M,36.0,1962.0,1.753,/m/0x67,,Blade,471544,/m/02djzj
+Harrison Ford,bounty_hunter,Rick Deckard,/m/08zbgl,/m/0c0k1,/m/0jvhbm,M,39.0,1942.0,1.85,/m/01qhm_,,Blade Runner,3746,/m/017n9
+Harrison Ford,hardboiled_detective,Rick Deckard,/m/08zbgl,/m/0c0k1,/m/0jvhbm,M,39.0,1942.0,1.85,/m/01qhm_,,Blade Runner,3746,/m/017n9
+Gene Wilder,fastest_gun_in_the_west,Jim,/m/04w0vlr,/m/027l0b,/m/0jvhqr,M,40.0,1933.0,1.78,/m/048z7l,,Blazing Saddles,3837,/m/018f8
+Isabella Rossellini,chanteuse,Dorothy Vallens,/m/0gz5lsj,/m/0htlr,/m/0jvlc4,F,,1952.0,1.73,/m/065b6q,,Blue Velvet,3947,/m/0191n
+Peter Sarsgaard,crazy_jealous_guy,John Lotter,/m/05v94mj,/m/03x400,/m/0jvqzw,M,28.0,1971.0,1.83,/m/0dqqwy,,Boys Don't Cry,543162,/m/02nczh
+Kristy Swanson,brainless_beauty,Buffy Summers,/m/0b41h,/m/0337zp,/m/0jvy0r,F,22.0,1969.0,1.676,/m/065b6q,,Buffy the Vampire Slayer,4231,/m/01cbx
+Kristy Swanson,valley_girl,Buffy Summers,/m/0b41h,/m/0337zp,/m/0jvy0r,F,22.0,1969.0,1.676,/m/065b6q,,Buffy the Vampire Slayer,4231,/m/01cbx
+Robert Redford,retired_outlaw,The Sundance Kid,/m/0cc17bf,/m/0gs1_,/m/0jvzx9,M,33.0,1936.0,1.75,/m/02w7gg,,Butch Cassidy and the Sundance Kid,99031,/m/0p9tm
+Robert De Niro,tranquil_fury,Max Cady,/m/06rrdy,/m/06cgy,/m/0jw22y,M,48.0,1943.0,1.77,/m/0xnvg,Max Cady,Cape Fear,171026,/m/016y_f
+Heath Ledger,casanova,Giacomo Casanova,/m/047_rdg,/m/0237fw,/m/0jw4mw,M,26.0,1979.0,1.85,/m/07hyjp,,Casanova,3201442,/m/08yy2g
+Robert De Niro,consummate_professional,Sam 'Ace' Rothstein,/m/0gxsd0y,/m/06cgy,/m/0jw4vx,M,52.0,1943.0,1.77,/m/0xnvg,,Casino,695780,/m/033hmj
+Robert De Niro,crazy_jealous_guy,Sam 'Ace' Rothstein,/m/0gxsd0y,/m/06cgy,/m/0jw4vx,M,52.0,1943.0,1.77,/m/0xnvg,,Casino,695780,/m/033hmj
+Leonardo DiCaprio,charmer,Frank Abagnale Jr.,/m/02nw85f,/m/0dvmd,/m/0jw5pq,M,28.0,1974.0,1.83,/m/09kr66,,Catch Me If You Can,215873,/m/01flv_
+Michael Caine,granola_person,Jasper Palmer,/m/02nwcj3,/m/0gnbw,/m/0jwbh7,M,73.0,1933.0,1.88,,,Children of Men,3793631,/m/0fh2v5
+Jack Nicholson,hardboiled_detective,J. J. Gittes,/m/02nwcjs,/m/09fb5,/m/0jwcjk,M,37.0,1937.0,1.77,/m/0xnvg,,Chinatown,68092,/m/0hv4t
+John Huston,corrupt_corporate_executive,Noah Cross,/m/072n1m,/m/0c12h,/m/0jwcjw,M,67.0,1906.0,1.88,,,Chinatown,68092,/m/0hv4t
+Jeff Anderson,bromantic_foil,Randal Graves,/m/05gmpml,/m/09594c,/m/0jwj18,M,,1970.0,1.82,,Randal Graves,Clerks.,200694,/m/01chyt
+Adam Sandler,ditz,Michael Newman,/m/03jnqt9,/m/0pz91,/m/0jwj2t,M,39.0,1966.0,1.78,/m/041rx,,Click,2864621,/m/087pfc
+Alicia Silverstone,ditz,Cher Horowitz,/m/0gyd1ll,/m/0j5q3,/m/0jwjsy,F,18.0,1976.0,1.65,/m/041rx,,Clueless,105872,/m/0qjzd
+Alicia Silverstone,valley_girl,Cher Horowitz,/m/0gyd1ll,/m/0j5q3,/m/0jwjsy,F,18.0,1976.0,1.65,/m/041rx,,Clueless,105872,/m/0qjzd
+Tom Cruise,hitman_with_a_heart,Vincent,/m/0c6fw6,/m/07r1h,/m/0jwkz6,M,42.0,1962.0,1.7,/m/02ctzb,,Collateral,826409,/m/03f7nt
+Arnold Schwarzenegger,revenge,Conan the Barbarian,/m/01z02,/m/0tc7,/m/0jwmfk,M,36.0,1947.0,1.88,/m/019lrz,Conan the Barbarian,Conan the Destroyer,1024501,/m/03_8cd
+Kirsten Dunst,broken_bird,Nicole Oakley,/m/0gxr1z0,/m/04fzk,/m/0jwrqb,F,19.0,1982.0,1.7,/m/01qhm_,,Crazy/Beautiful,1882947,/m/063h6k
+Denzel Washington,father_to_his_men,Lt. Commander Ron Hunter,/m/0gxszkm,/m/0pmhf,/m/0jwsnp,M,40.0,1954.0,1.84,/m/0x67,,Crimson Tide,1317604,/m/04sg0b
+Chow Yun-Fat,warrior_poet,Master Li Mu Bai,/m/059xf3y,/m/0m9v7,/m/0jwt__,M,44.0,1955.0,1.83,/m/03bx0k4,,"Crouching Tiger, Hidden Dragon",5313,/m/01mgw
+Zhang Ziyi,arrogant_kungfu_guy,Jen Yu,/m/059xf46,/m/0jlv5,/m/0jwv09,F,21.0,1979.0,1.63,,,"Crouching Tiger, Hidden Dragon",5313,/m/01mgw
+Milo Ventimiglia,jerk_jock,Bo,/m/0h185dc,/m/03mt30,/m/0jwwhw,M,27.0,1977.0,1.78,/m/033tf_,,Cursed,1253851,/m/04mgt3
+Jeremy Irons,crazy_jealous_guy,Dr. Stephen Fleming,/m/0g_6rzl,/m/016ywr,/m/0jwy3x,M,44.0,1948.0,1.85,/m/02w7gg,,Damage,3175656,/m/08x6cl
+Michael Clarke Duncan,corrupt_corporate_executive,Kingpin,/m/022f26,/m/02lkcc,/m/0jwz5q,M,45.0,1957.0,1.96,/m/0x67,,Daredevil,1129847,/m/048vhl
+Norman Lloyd,dean_bitterman,Mr. Nolan,/m/0h5qcrp,/m/0fsrjj,/m/0jx21w,M,74.0,1914.0,,,,Dead Poets Society,129493,/m/0yzbg
+Humphrey Bogart,hardboiled_detective,Capt. 'Rip' Murdock,/m/0gz4w4f,/m/03n6r,/m/0jx253,M,,1899.0,1.74,/m/07mqps,,Dead Reckoning,1918678,/m/066177
+Bruce Willis,henpecked_husband,Dr. Ernest Menville,/m/04drwxd,/m/0h7pj,/m/0jx2_4,M,37.0,1955.0,1.8,,,Death Becomes Her,105972,/m/0qkl7
+Edward Norton,granola_person,Sheldon Mopes,/m/0gy99_8,/m/01515w,/m/0jx3b8,M,32.0,1969.0,1.83,,,Death to Smoochy,1157158,/m/04c13q
+Ray Milland,crazy_jealous_guy,Tony Wendice,/m/0528dy7,/m/0f0p0,/m/0jx7qr,M,47.0,1907.0,1.87,,,Dial M for Murder,77223,/m/0k7tq
+Jean Harlow,dumb_blonde,Kitty Packard,/m/0h2zslv,/m/01qzdl,/m/0jx9zj,F,22.0,1911.0,1.55,,,Dinner at Eight,3339200,/m/096mjj
+Jason Mewes,stoner,Jay,/m/0468rdr,/m/02q7z2,/m/0jxdkm,M,24.0,1974.0,1.83,/m/022dp5,,Dogma,98991,/m/0p9lw
+Brittany Murphy,ophelia,Elisabeth Burrows,/m/0gx9nv1,/m/0168dy,/m/0jxfnl,F,23.0,1977.0,1.6,,,Don't Say a Word,236122,/m/01j8wk
+Jake Gyllenhaal,byronic_hero,Donnie Darko,/m/04kcvsp,/m/02js6_,/m/0jxftx,M,20.0,1980.0,1.83,/m/065b6q,,Donnie Darko,57820,/m/0fvr1
+Jeff Daniels,doormat,Harry Dunne,/m/04w0vs9,/m/0372kf,/m/0jxmxp,M,39.0,1955.0,1.91,/m/07hwkr,,Dumb & Dumber,737803,/m/0372j5
+Anthony Michael Hall,jerk_jock,Jim,/m/0g4g1dp,/m/01jvs4,/m/0jxqwd,M,22.0,1968.0,1.88,/m/033tf_,,Edward Scissorhands,302970,/m/01s3vk
+James Marsden,romantic_runnerup,Prince Edward,/m/02nwdm3,/m/042ly5,/m/0jxvm9,M,34.0,1973.0,1.79,,Prince Edward,Enchanted,5138153,/m/0d4htf
+Pauly Shore,surfer_dude,Stoney Brown,/m/0h1wklh,/m/01sbhvd,/m/0jxvpr,M,24.0,1968.0,1.71,/m/041rx,,Encino Man,1596589,/m/05fc8m
+Christian Bale,tranquil_fury,John Preston,/m/0d1394,/m/01wy5m,/m/0jxwq8,M,28.0,1974.0,1.83,/m/02w7gg,John Preston,Equilibrium,234537,/m/01j2ff
+Angus Macfadyen,cultured_badass,Dupont,/m/0h5r1sb,/m/04nr37,/m/0jxwqx,M,39.0,1963.0,1.78,,,Equilibrium,234537,/m/01j2ff
+Julian McMahon,corrupt_corporate_executive,Doctor Doom,/m/0cs4m,/m/022r97,/m/0jy24c,M,36.0,1968.0,1.88,,Doctor Doom,Fantastic Four,1519783,/m/057lbk
+William H. Macy,stupid_crooks,Jerry Lundegaard,/m/04mn0rg,/m/023kzp,/m/0jy2wd,M,45.0,1950.0,1.75,/m/04tvpv,,Fargo,142430,/m/011yhm
+Peter Stormare,psycho_for_hire,Gaear Grimsrud,/m/04mn0r0,/m/012q4n,/m/0jy2x0,M,42.0,1953.0,1.892,/m/065b6q,,Fargo,142430,/m/011yhm
+Sean Penn,stoner,Jeff Spicoli,/m/02nwdx9,/m/0sz28,/m/0jy30b,M,21.0,1960.0,1.77,/m/041rx,,Fast Times at Ridgemont High,453236,/m/02bc6c
+Sean Penn,surfer_dude,Jeff Spicoli,/m/02nwdx9,/m/0sz28,/m/0jy30b,M,21.0,1960.0,1.77,/m/041rx,,Fast Times at Ridgemont High,453236,/m/02bc6c
+Mark Wahlberg,crazy_jealous_guy,David McCall,/m/0h5sl1v,/m/0gy6z9,/m/0jy3_h,M,24.0,1971.0,1.7,/m/065b6q,,Fear,594295,/m/02thnm
+Jeffrey Jones,dean_bitterman,Ed Rooney,/m/0h4zjnd,/m/02rf1y,/m/0jy52w,M,39.0,1946.0,1.94,,,Ferris Bueller's Day Off,88326,/m/0m491
+Brad Pitt,trickster,Tyler Durden,/m/0447lv7,/m/0c6qh,/m/0jy5tj,M,35.0,1963.0,1.8,,,Fight Club,1009041,/m/03yvf2
+Robin Williams,absent_minded_professor,Professor Philip Brainard,/m/0cls20k,/m/0dzf_,/m/0jy9q0,M,46.0,1951.0,1.702,,,Flubber,1344253,/m/04vcfx
+Clint Eastwood,bounty_hunter,Man with No Name,/m/038pm4,/m/0bwh6,/m/0jybsq,M,35.0,1930.0,1.88,/m/09vc4s,,For a Few Dollars More,442300,/m/028_x9
+Lee Van Cleef,revenge,Col. Douglas Mortimer,/m/0h2y3p9,/m/04r0b,/m/0jybsw,M,40.0,1925.0,1.88,/m/07mqps,,For a Few Dollars More,442300,/m/028_x9
+Rowan Atkinson,ditz,Mr. Bean,/m/02nwjjk,/m/0djywgn,/m/0jygqg,M,52.0,1955.0,1.8,,Mr. Bean,Mr. Bean's Holiday,1120730,/m/047v27
+R. Lee Ermey,drill_sargeant_nasty,Gny. Sgt. Hartman,/m/0h36xlz,/m/01mylz,/m/0jykjt,M,43.0,1944.0,1.82,,,Full Metal Jacket,11701,/m/0333t
+Viggo Mortensen,drill_sargeant_nasty,Master Chief John James Urgayle,/m/0cndbrw,/m/01ps2h8,/m/0jylf1,M,38.0,1958.0,1.803,/m/0dqqwy,,G.I. Jane,706803,/m/034f7w
+Daniel Day-Lewis,byronic_hero,Bill 'The Butcher' Cutting,/m/02nwfb9,/m/016yvw,/m/0jynbm,M,45.0,1957.0,1.87,/m/041rx,,Gangs of New York,188902,/m/019vhk
+Martin Sheen,father_to_his_men,Gen. Robert E. Lee,/m/0h0j_1l,/m/0hvb2,/m/0jyqwm,M,52.0,1940.0,1.7,/m/042gtr,Gen. Robert E. Lee,Gettysburg,1236122,/m/04kzqz
+Forest Whitaker,cultured_badass,Ghost Dog,/m/0c6hpm4,/m/02y_2y,/m/0jyr6h,M,37.0,1961.0,1.88,/m/05g0f1,,Ghost Dog: The Way of the Samurai,471352,/m/02dj31
+Forest Whitaker,hitman_with_a_heart,Ghost Dog,/m/0c6hpm4,/m/02y_2y,/m/0jyr6h,M,37.0,1961.0,1.88,/m/05g0f1,,Ghost Dog: The Way of the Samurai,471352,/m/02dj31
+Glenn Ford,crazy_jealous_guy,Johnny Farrell,/m/0h2h57r,/m/02_01w,/m/0jysmq,M,29.0,1916.0,1.803,/m/07bch9,,Gilda,1673949,/m/05md6s
+Russell Crowe,father_to_his_men,Maximus Decimus Meridius,/m/02nwfh3,/m/06dv3,/m/0jytc_,M,36.0,1964.0,1.8,/m/05748,,Gladiator,3616797,/m/09q5w2
+Joaquin Phoenix,evil_prince,Commodus,/m/02nw89f,/m/018db8,/m/0jytd4,M,25.0,1974.0,1.73,/m/041rx,,Gladiator,3616797,/m/09q5w2
+Matthew Broderick,officer_and_a_gentleman,Col. Robert Gould Shaw,/m/0h145sl,/m/01vlj1g,/m/0jyts_,M,26.0,1962.0,1.73,/m/041rx,,Glory,509676,/m/02jxbw
+Joe Pesci,crazy_jealous_guy,Tommy DeVito,/m/05288kp,/m/01pj5q,/m/0jyytb,M,47.0,1943.0,1.6256,/m/0xnvg,,Goodfellas,64394,/m/0h6r5
+John Cusack,byronic_hero,Martin Q. Blank,/m/0fq5tvq,/m/01gkmx,/m/0jz0wk,M,30.0,1966.0,1.87,/m/033tf_,,Grosse Pointe Blank,1533664,/m/058q46
+Jamie Lee Curtis,final_girl,Laurie Strode,/m/09mpv9,/m/0hwqz,/m/0jz2x0,F,19.0,1958.0,1.75,/m/048z7l,Laurie Strode,Halloween,20179415,/m/0m3gy
+Dan O'Herlihy,corrupt_corporate_executive,Conal Cochran,/m/0h60x89,/m/015d2r,/m/0jz33w,M,63.0,1919.0,,/m/03bkbh,,Halloween III: Season of the Witch,243064,/m/01k866
+John Cho,stoner,Harold Lee,/m/03h0ddz,/m/03l3jy,/m/0jz5zr,M,31.0,1972.0,1.78,/m/01j2qv,Harold Lee,Harold & Kumar Go to White Castle,873469,/m/03kk01
+Kal Penn,slacker,Kumar Patel,/m/03h0df_,/m/03l3ln,/m/0jz5zx,M,27.0,1977.0,1.78,/m/0g0x7_,Kumar Patel,Harold & Kumar Go to White Castle,873469,/m/03kk01
+Kal Penn,stoner,Kumar Patel,/m/03h0df_,/m/03l3ln,/m/0jz5zx,M,27.0,1977.0,1.78,/m/0g0x7_,Kumar Patel,Harold & Kumar Go to White Castle,873469,/m/03kk01
+Clint Eastwood,drill_sargeant_nasty,Sergeant Thomas Highway,/m/0gww9ty,/m/0bwh6,/m/0jz8d6,M,56.0,1930.0,1.88,/m/09vc4s,,Heartbreak Ridge,1596524,/m/05fc58
+Robert De Niro,gentleman_thief,Neil McCauley,/m/0gxsd1k,/m/06cgy,/m/0jz8sq,M,52.0,1943.0,1.77,/m/0xnvg,,Heat,43566,/m/0bxsk
+Ron Perlman,bruiser_with_a_soft_center,Hellboy,/m/02jlyb,/m/03hhd3,/m/0jzb66,M,56.0,1950.0,1.85,/m/041rx,,Hellboy: Blood and Iron,5838045,/m/0f88sr
+Jet Li,master_swordsman,Nameless,/m/02zfy0p,/m/0451j,/m/0jzcr5,M,39.0,1963.0,1.676,/m/02p1pl6,,Hero,318542,/m/01v5rj
+Tony Leung Chiu Wai,master_swordsman,Broken Sword,/m/02zfy4b,/m/01f873,/m/0jzcrb,M,40.0,1962.0,1.71,/m/03bx0k4,,Hero,318542,/m/01v5rj
+Tony Leung Chiu Wai,warrior_poet,Broken Sword,/m/02zfy4b,/m/01f873,/m/0jzcrb,M,40.0,1962.0,1.71,/m/03bx0k4,,Hero,318542,/m/01v5rj
+Zac Efron,big_man_on_campus,Troy Bolton,/m/02nwg13,/m/06wm0z,/m/0jzdys,M,18.0,1987.0,1.78,/m/048z7l,Troy Bolton,High School Musical,3463364,/m/09dv8h
+Ashley Tisdale,prima_donna,Sharpay Evans,/m/02nwg0x,/m/06tp4h,/m/0jzdz2,F,20.0,1985.0,1.6,/m/041rx,Sharpay Evans,High School Musical,3463364,/m/09dv8h
+Cary Grant,the_editor,Walter Burns,/m/02nwg2f,/m/09qh1,/m/0jzg14,M,35.0,1904.0,1.87,,Walter Burns,His Girl Friday,74018,/m/0jsxn
+Jeffrey Tambor,corrupt_corporate_executive,Mayor Augustus Maywho,/m/0gj3gy9,/m/02r_d4,/m/0jzmfp,M,56.0,1944.0,1.85,,,How the Grinch Stole Christmas!,4867859,/m/0crrc8
+Marilyn Monroe,dumb_blonde,Pola Debevoise,/m/0c1ghxz,/m/04wqr,/m/0jzmyb,F,27.0,1926.0,1.66,/m/04f581,,How to Marry a Millionaire,911882,/m/03p5xc
+Cameron Diaz,brainless_beauty,Maggie Feller,/m/04dwxn4,/m/0bksh,/m/0jzvtp,F,33.0,1972.0,1.75,/m/042gtr,,In Her Shoes,2073069,/m/06k8jd
+Harrison Ford,adventurer_archaeologist,Indiana Jones,/m/03ttl,/m/0c0k1,/m/0jzx78,M,65.0,1942.0,1.85,/m/01qhm_,Indiana Jones,Indiana Jones and the Kingdom of the Crystal Skull,1252914,/m/04mcw4
+Harrison Ford,adventurer_archaeologist,Indiana Jones,/m/03ttl,/m/0c0k1,/m/0jzx9b,M,41.0,1942.0,1.85,/m/01qhm_,Indiana Jones,Indiana Jones and the Temple of Doom,81503,/m/0k_9j
+Richard Gere,dirty_cop,Dennis Peck,/m/0gy8twl,/m/01438g,/m/0jzyzv,M,40.0,1949.0,1.8,/m/033tf_,,Internal Affairs,5549932,/m/0ds2hb
+Rick Moranis,klutz,Seymour Krelborn,/m/0h2qx4d,/m/02n4b9,/m/0k020r,M,33.0,1953.0,1.5494,/m/041rx,,Little Shop of Horrors,3447166,/m/09cxm4
+Bruce Willis,hitman_with_a_heart,Mr. Goodkat,/m/04drwz7,/m/0h7pj,/m/0k087f,M,50.0,1955.0,1.8,,,Lucky Number Slevin,4235653,/m/0brfjd
+Mel Gibson,heartbroken_badass,Max Rockatansky,/m/090wrh,/m/0c1pj,/m/0k09b2,M,23.0,1956.0,1.77,/m/03gskx0,Max Rockatansky,Mad Max,255898,/m/01ly1t
+Russell Crowe,father_to_his_men,Jack Aubrey,/m/01n2s8,/m/06dv3,/m/0k0h66,M,39.0,1964.0,1.8,/m/05748,,Master and Commander: The Far Side of the World,370858,/m/020fcn
+Russell Crowe,officer_and_a_gentleman,Jack Aubrey,/m/01n2s8,/m/06dv3,/m/0k0h66,M,39.0,1964.0,1.8,/m/05748,,Master and Commander: The Far Side of the World,370858,/m/020fcn
+Dolph Lundgren,master_swordsman,He-Man,/m/01ccnh,/m/02v406,/m/0k0h9d,M,29.0,1957.0,1.96,/m/06mvq,,Masters of the Universe,3044228,/m/08mszt
+Mel Gibson,fastest_gun_in_the_west,Bret Maverick,/m/04lrkdf,/m/0c1pj,/m/0k0hyr,M,38.0,1956.0,1.77,/m/03gskx0,,Maverick,380517,/m/021jdm
+Tom Selleck,gadgeteer_genius,Lewis,/m/05ys_l_,/m/01pj3h,/m/0k0kn_,M,62.0,1945.0,1.93,/m/04q7gbh,,Meet the Robinsons,2017208,/m/06fcqj
+Guy Pearce,revenge,Leonard,/m/0g98r8c,/m/0184jc,/m/0k0l33,M,32.0,1967.0,1.8,/m/03cbkrf,,Memento,2750041,/m/017z49
+Robert De Niro,bounty_hunter,Jack Walsh,/m/0gxsd84,/m/06cgy,/m/0k0n9r,M,44.0,1943.0,1.77,/m/0xnvg,Jack Walsh,Midnight Run,1122030,/m/047ytl
+Nicholas Bell,father_to_his_men,Zordon,/m/02r3q0,/m/027x329,/m/0k0nmw,M,36.0,1958.0,,,,Mighty Morphin' Power Rangers: The Movie,703807,/m/0344xk
+Samantha Morton,junkie_prophet,Agatha,/m/0g9b8g2,/m/02d42t,/m/0k0pgt,F,25.0,1977.0,1.6,/m/02w7gg,,Minority Report,142049,/m/011wtv
+Tom Cruise,tranquil_fury,Ethan Hunt,/m/09bl39,/m/07r1h,/m/0k0qpl,M,33.0,1962.0,1.7,/m/02ctzb,Ethan Hunt,Mission: Impossible,724258,/m/035w2k
+Richard Roxburgh,crazy_jealous_guy,Duke of Monroth,/m/0432dks,/m/02zl4d,/m/0k0vyn,M,38.0,1962.0,1.8,,,Moulin Rouge!,142481,/m/011yxg
+Ryan Reynolds,big_man_on_campus,Van Wilder,/m/05c17x7,/m/036hf4,/m/0k14rv,M,25.0,1976.0,1.88,/m/044038p,Van Wilder,National Lampoon's Van Wilder,1126401,/m/048hvr
+Justin Bartha,playful_hacker,Riley Poole,/m/0cj9l9w,/m/062zhg,/m/0k14vc,M,26.0,1978.0,1.73,/m/041rx,Riley Poole,National Treasure,699208,/m/033srr
+Peter Finch,grumpy_old_man,Howard Beale,/m/07yh11,/m/016ynj,/m/0k168v,M,60.0,1916.0,,,,Network,101935,/m/04j13sx
+Eric Christian Olsen,jerk_jock,Austin,/m/0h5jv03,/m/0959pn,/m/0k1cs5,M,24.0,1977.0,1.88,/m/07hwkr,,Not Another Teen Movie,1519350,/m/057jzt
+Charles Bronson,fastest_gun_in_the_west,Harmonica,/m/0h6g64s,/m/01dkpb,/m/0k1j46,M,47.0,1921.0,1.74,/m/0ffkb4,,Once Upon a Time in the West,284676,/m/01pvq3
+Charles Bronson,revenge,Harmonica,/m/0h6g64s,/m/01dkpb,/m/0k1j46,M,47.0,1921.0,1.74,/m/0ffkb4,,Once Upon a Time in the West,284676,/m/01pvq3
+Henry Fonda,psycho_for_hire,Frank,/m/0h6g66l,/m/0cj8x,/m/0k1j4j,M,63.0,1905.0,1.87,/m/07mqps,,Once Upon a Time in the West,284676,/m/01pvq3
+Schuyler Fisk,granola_person,Ashley,/m/0cg5n17,/m/05gcdd,/m/0k1m4g,F,19.0,1982.0,1.65,,,Orange County,438417,/m/028kj0
+Robert Mitchum,hardboiled_detective,Jeff Bailey,/m/0cbz40k,/m/0m0hw,/m/0k1nzj,M,29.0,1917.0,1.854,,,Out of the Past,75266,/m/0j_wf
+Rachel Hurd-Wood,storyteller,Wendy Darling,/m/025tvd2,/m/059f88,/m/0k1vn1,F,13.0,1990.0,1.7,,Wendy Darling,Peter Pan,740744,/m/037cr1
+Jack Davenport,romantic_runnerup,James Norrington,/m/08r83s,/m/02gqcs,/m/0k1xw3,M,34.0,1973.0,1.854,,,Pirates of the Caribbean: At World's End,1689394,/m/05nlx4
+Tom Hollander,corrupt_corporate_executive,Cutler Beckett,/m/0cwtr9,/m/0755wz,/m/0k1xwx,M,39.0,1967.0,1.651,/m/02w7gg,Cutler Beckett,Pirates of the Caribbean: At World's End,1689394,/m/05nlx4
+Johnny Depp,byronic_hero,Captain Jack Sparrow,/m/01x5g2,/m/0jfx1,/m/0k1xxm,M,43.0,1963.0,1.78,/m/01qhm_,Captain Jack Sparrow,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Johnny Depp,charmer,Captain Jack Sparrow,/m/01x5g2,/m/0jfx1,/m/0k1xxm,M,43.0,1963.0,1.78,/m/01qhm_,Captain Jack Sparrow,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Johnny Depp,coward,Captain Jack Sparrow,/m/01x5g2,/m/0jfx1,/m/0k1xxm,M,43.0,1963.0,1.78,/m/01qhm_,Captain Jack Sparrow,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Johnny Depp,loveable_rogue,Captain Jack Sparrow,/m/01x5g2,/m/0jfx1,/m/0k1xxm,M,43.0,1963.0,1.78,/m/01qhm_,Captain Jack Sparrow,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Johnny Depp,trickster,Captain Jack Sparrow,/m/01x5g2,/m/0jfx1,/m/0k1xxm,M,43.0,1963.0,1.78,/m/01qhm_,Captain Jack Sparrow,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Jack Davenport,officer_and_a_gentleman,Norrington,/m/0cgrw9b,/m/02gqcs,/m/0k1xyd,M,33.0,1973.0,1.854,,,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Tom Hollander,corrupt_corporate_executive,Cutler Beckett,/m/0cwtr9,/m/0755wz,/m/0k1xyw,M,38.0,1967.0,1.651,/m/02w7gg,Cutler Beckett,Pirates of the Caribbean: Dead Man's Chest,999394,/m/03y0pn
+Tom Berenger,drill_sargeant_nasty,Staff Sergeant Robert Barnes,/m/02nwkyp,/m/021npv,/m/0k1yyt,M,37.0,1949.0,1.803,,,Platoon,113460,/m/0sxmx
+Tom Berenger,psycho_for_hire,Staff Sergeant Robert Barnes,/m/02nwkyp,/m/021npv,/m/0k1yyt,M,37.0,1949.0,1.803,,,Platoon,113460,/m/0sxmx
+Robert De Niro,byronic_hero,Jake LaMotta,/m/02nw8mt,/m/06cgy,/m/0k28_g,M,37.0,1943.0,1.77,/m/0xnvg,,Raging Bull,25506,/m/06cm5
+Robert De Niro,crazy_jealous_guy,Jake LaMotta,/m/02nw8mt,/m/06cgy,/m/0k28_g,M,37.0,1943.0,1.77,/m/0xnvg,,Raging Bull,25506,/m/06cm5
+Harrison Ford,adventurer_archaeologist,Indiana Jones,/m/03ttl,/m/0c0k1,/m/0k294p,M,38.0,1942.0,1.85,/m/01qhm_,Indiana Jones,Indiana Jones and the Raiders of the Lost Ark,54166,/m/0f4yh
+Neve Campbell,final_girl,Sidney Prescott,/m/025t3kn,/m/0l8v5,/m/0k2_bc,F,23.0,1973.0,1.7,/m/092h2qt,Sidney Prescott,Scream,113549,/m/0sy44
+Val Kilmer,child_prodigy,Chris Knight,/m/0gy8mlk,/m/0d_84,/m/0k2ckt,M,25.0,1959.0,1.83,/m/07bch9,,Real Genius,483745,/m/02f_gc
+Ben Stiller,romantic_runnerup,Michael Grates,/m/04drzyb,/m/0mdqp,/m/0k2ct2,M,28.0,1965.0,1.73,/m/041rx,,Reality Bites,350847,/m/01z7v5
+Cillian Murphy,psycho_for_hire,Jackson Rippner,/m/0h5qyf1,/m/02fqwb,/m/0k2dm9,M,29.0,1976.0,1.75,/m/0d7wh,,Red Eye,1958425,/m/068_3t
+Michael Madsen,psycho_for_hire,Mr. Blonde,/m/0cgpn4g,/m/02zyy4,/m/0k2ggy,M,34.0,1957.0,1.88,,,Reservoir Dogs,297111,/m/02h4658
+Ricky Nelson,young_gun,Colorado Ryan,/m/0hgx0j0,/m/01wj92r,/m/0k2kqg,M,18.0,1940.0,1.82,/m/065b6q,,Rio Bravo,81100,/m/0kyjk
+Jude Law,psycho_for_hire,Harlen Maguire,/m/0bd6csj,/m/01r93l,/m/0k2ljt,M,29.0,1972.0,1.82,/m/02w7gg,,Road to Perdition,342741,/m/01y9r2
+Tim Roth,master_swordsman,Archibald Cunningham,/m/0h2b2xc,/m/021yzs,/m/0k2ltj,M,33.0,1961.0,1.7,/m/02w7gg,,Rob Roy,701781,/m/033_m2
+Ronny Cox,corrupt_corporate_executive,Dick Jones,/m/0h5q83s,/m/032qgs,/m/0k2m8v,M,48.0,1938.0,1.88,,,RoboCop,445066,/m/0299hs
+Greg Kinnear,corrupt_corporate_executive,Ratchet,/m/0ghwknl,/m/02t_st,/m/0k2mmy,M,41.0,1963.0,1.765,/m/07hwkr,,Robots,893808,/m/03mh94
+Carl Weathers,arrogant_kungfu_guy,Apollo Creed,/m/0cg655,/m/0234pg,/m/0k2n0d,M,28.0,1948.0,1.88,/m/0x67,Apollo Creed,Rocky,45772,/m/0cf08
+Mr. T,arrogant_kungfu_guy,Clubber Lang,/m/063y59,/m/04s_q,/m/0k2n56,M,30.0,1952.0,1.78,/m/0x67,,Rocky III,152328,/m/013vbq
+Mira Sorvino,dumb_blonde,Romy White,/m/04fgyvv,/m/01phtd,/m/0k2p5c,F,29.0,1967.0,1.78,/m/0xnvg,,Romy and Michele's High School Reunion,201553,/m/01cms4
+Mira Sorvino,slacker,Romy White,/m/04fgyvv,/m/01phtd,/m/0k2p5c,F,29.0,1967.0,1.78,/m/0xnvg,,Romy and Michele's High School Reunion,201553,/m/01cms4
+Mira Sorvino,valley_girl,Romy White,/m/04fgyvv,/m/01phtd,/m/0k2p5c,F,29.0,1967.0,1.78,/m/0xnvg,,Romy and Michele's High School Reunion,201553,/m/01cms4
+Lisa Kudrow,dumb_blonde,Michele Weinberger,/m/02vz486,/m/016tb7,/m/0k2p5j,F,33.0,1963.0,1.73,/m/041rx,,Romy and Michele's High School Reunion,201553,/m/01cms4
+Lisa Kudrow,slacker,Michele Weinberger,/m/02vz486,/m/016tb7,/m/0k2p5j,F,33.0,1963.0,1.73,/m/041rx,,Romy and Michele's High School Reunion,201553,/m/01cms4
+Rick Rossovich,brainless_beauty,Chris,/m/0gj4dvd,/m/06lqy8,/m/0k2q15,M,29.0,1957.0,1.93,/m/0ffjqy,,Roxanne,574768,/m/02rl6f
+John Lithgow,corrupt_corporate_executive,B.Z.,/m/0h2t1xw,/m/01yk13,/m/0k2w67,M,40.0,1945.0,1.93,/m/07bch9,,Santa Claus: The Movie,2406759,/m/079xmk
+Anna Faris,dumb_blonde,Cindy Campbell,/m/0g3h_5,/m/01pk3z,/m/0k2y_7,F,29.0,1976.0,1.65,/m/07bch9,Cindy Campbell,Scary Movie 4,2486990,/m/07h9gp
+Mary Elizabeth Mastrantonio,ophelia,Gina Montana,/m/0cgx94y,/m/01msrs,/m/0k2ysf,F,25.0,1958.0,1.651,/m/0xnvg,,Scarface,267848,/m/01nln3
+Anna Faris,dumb_blonde,Cindy Campbell,/m/0g3h_5,/m/01pk3z,/m/0k2z05,F,26.0,1976.0,1.65,/m/07bch9,Cindy Campbell,Scary Movie 3,880056,/m/03l6q0
+Jack Black,loser_protagonist,Dewey Finn,/m/0bnmntb,/m/01vsn38,/m/0k2zjf,M,34.0,1969.0,1.68,/m/07bch9,,School of Rock,805097,/m/03dbjv
+Jack Black,slacker,Dewey Finn,/m/0bnmntb,/m/01vsn38,/m/0k2zjf,M,34.0,1969.0,1.68,/m/07bch9,,School of Rock,805097,/m/03dbjv
+Mike White,henpecked_husband,Ned Schneebly,/m/0bnmnzl,/m/03skdq,/m/0k2zjr,M,33.0,1970.0,1.75,/m/02ctzb,,School of Rock,805097,/m/03dbjv
+Michael Caine,storyteller,Garth McCann,/m/0bnmycm,/m/0gnbw,/m/0k309k,M,70.0,1933.0,1.88,,,Secondhand Lions,1863169,/m/061_ky
+David Krumholtz,playful_hacker,Mr. Universe,/m/02sgjdt,/m/05cx7x,/m/0k31lb,M,27.0,1978.0,1.68,/m/041rx,,Serenity,504242,/m/02j9_2
+Jack Palance,psycho_for_hire,Jack Wilson,/m/0h5cyzs,/m/02t_w8,/m/0k34x6,M,34.0,1919.0,1.93,/m/0ffjvd,,Shane,76351,/m/0k4bc
+Owen Wilson,retired_outlaw,Roy O'Bannon,/m/0bnpfkv,/m/01q_ph,/m/0k34yw,M,31.0,1968.0,1.8,/m/033tf_,Roy O'Bannon,Shanghai Noon,213149,/m/01f6x7
+Simon Pegg,slacker,Shaun,/m/0gxnhy3,/m/012x2b,/m/0k35n0,M,34.0,1970.0,1.78,,,Shaun of the Dead,598397,/m/02t_h3
+Nick Frost,bromantic_foil,Ed,/m/0h2tgld,/m/04twtn,/m/0k35nb,M,32.0,1972.0,1.7,/m/02w7gg,,Shaun of the Dead,598397,/m/02t_h3
+John Wayne,father_to_his_men,Capt. Nathan Cutting Brittles,/m/0gyfxb6,/m/043gj,/m/0k35w2,M,41.0,1907.0,1.93,/m/063k3h,,She Wore a Yellow Ribbon,3466023,/m/09dzvh
+Trevor Thomas,evil_prince,Prince Otwani,/m/0cgrwzh,/m/0ckrzh,/m/0k36bq,M,,,,,,Sheena,2398332,/m/079934
+Kevin Costner,young_gun,Jake,/m/0g_vt8w,/m/0127m7,/m/0k39jj,M,30.0,1955.0,1.85,/m/09vc4s,,Silverado,2087781,/m/06l9q0
+Jean Hagen,dumb_blonde,Lina Lamont,/m/02nwm77,/m/04ql20,/m/0k3b2r,F,28.0,1923.0,,,,Singin' in the Rain,1883157,/m/063hp4
+Jean Hagen,prima_donna,Lina Lamont,/m/02nwm77,/m/04ql20,/m/0k3b2r,F,28.0,1923.0,,,,Singin' in the Rain,1883157,/m/063hp4
+Patrick Bergin,crazy_jealous_guy,Martin Burney,/m/0lhwm0d,/m/074njz,/m/0k3ddh,M,40.0,1951.0,1.905,,,Sleeping with the Enemy,924767,/m/03qfh7
+Billy Bob Thornton,dumb_muscle,Karl Childers,/m/0bcrjg,/m/01fh9,/m/0k3dtt,M,41.0,1955.0,1.83,,,Sling Blade,171522,/m/0170qy
+Vinnie Jones,psycho_for_hire,Bullet Tooth Tony,/m/0br0cg3,/m/01lqnff,/m/0k3gbw,M,35.0,1965.0,1.88,/m/02w7gg,,Snatch,707808,/m/034hwx
+Marilyn Monroe,chanteuse,Sugar Kane Kowalczyk,/m/0gxt01n,/m/04wqr,/m/0k3j8v,F,32.0,1926.0,1.66,/m/04f581,,Some Like It Hot,76366,/m/0k4f3
+Keanu Reeves,romantic_runnerup,Julian Mercer,/m/0btdyyh,/m/0479b,/m/0k3jn6,M,39.0,1964.0,1.86,/m/03bkbh,,Something's Gotta Give,414180,/m/025hhq
+Christopher Lee,pupil_turned_to_evil,Count Dooku,/m/0gzf3,/m/0f0kz,/m/0k3q_8,M,79.0,1922.0,1.96,,Count Dooku,Star Wars Episode II: Attack of the Clones,50957,/m/0dfw0
+Ewan McGregor,master_swordsman,Obi-Wan Kenobi,/m/0fkm7,/m/0k269,/m/0k3qy3,M,28.0,1971.0,1.79,/m/03lmx1,Obi-Wan Kenobi,Star Wars Episode I: The Phantom Menace,50793,/m/0ddt_
+Liam Neeson,master_swordsman,Qui-Gon Jinn,/m/0gzgj,/m/0h5g_,/m/0k3qyf,M,46.0,1952.0,1.93,/m/03bkbh,,Star Wars Episode I: The Phantom Menace,50793,/m/0ddt_
+Harrison Ford,charmer,Han Solo,/m/0fjn8,/m/0c0k1,/m/0k3r1_,M,34.0,1942.0,1.85,/m/01qhm_,Han Solo,Star Wars Episode IV: A New Hope,52549,/m/0dtfn
+Harrison Ford,loveable_rogue,Han Solo,/m/0fjn8,/m/0c0k1,/m/0k3r1_,M,34.0,1942.0,1.85,/m/01qhm_,Han Solo,Star Wars Episode IV: A New Hope,52549,/m/0dtfn
+James Spader,absent_minded_professor,Daniel Jackson,/m/02qs1z,/m/043js,/m/0k3rhh,M,34.0,1960.0,1.78,,Daniel Jackson,Stargate,28327,/m/070g7
+Maggie Gyllenhaal,granola_person,Ana Pascal,/m/0gv13np,/m/023mdt,/m/0k3t_x,F,28.0,1977.0,1.75,/m/065b6q,,Stranger Than Fiction,4155050,/m/0bm2nq
+Ralph Fiennes,byronic_hero,Lenny Nero,/m/098d8x0,/m/0170qf,/m/0k3tt_,M,32.0,1962.0,1.83,,,Strange Days,1339563,/m/04tzz5
+Dustin Hoffman,tranquil_fury,David Sumner,/m/0ch916z,/m/0bl2g,/m/0k3v65,M,34.0,1937.0,1.66,/m/041rx,David Sumner,Straw Dogs,196176,/m/01bwgr
+Diane Lane,chanteuse,Ellen Aim,/m/0c154d1,/m/01skmp,/m/0k3w12,F,19.0,1965.0,1.7,,,Streets of Fire,885876,/m/03lrx2
+Bill Murray,slacker,John Winger,/m/07034yp,/m/0p_pd,/m/0k3w4y,M,30.0,1950.0,1.88,/m/033tf_,,Stripes,560511,/m/02q2jw
+Gloria Swanson,prima_donna,Norma Desmond,/m/02vvlk,/m/0173lp,/m/0k3ybb,F,,1899.0,1.5,/m/065b6q,,Sunset Boulevard,76368,/m/0k4fz
+Brian Blessed,egomaniac_hunter,Clayton,/m/092dvw,/m/02p3j2,/m/0k42s4,M,62.0,1936.0,1.753,/m/02w7gg,,Tarzan,1749093,/m/05sxr_
+Robert De Niro,byronic_hero,Travis Bickle,/m/04p4dx,/m/06cgy,/m/0k43s9,M,32.0,1943.0,1.77,/m/0xnvg,,Taxi Driver,30000,/m/07cw4
+Humphrey Bogart,hardboiled_detective,Dist. Atty. Martin Ferguson,/m/0gz4vzr,/m/03n6r,/m/0k4_sm,M,,1899.0,1.74,/m/07mqps,,The Enforcer,1863523,/m/0620fw
+Colin Firth,crazy_jealous_guy,Geoffrey Clifton,/m/0c0fwm8,/m/03f1zdw,/m/0k4_tz,M,36.0,1960.0,1.87,/m/0d7wh,,The English Patient,101954,/m/0pv3x
+Humphrey Bogart,hardboiled_detective,Philip Marlowe,/m/01c41d,/m/03n6r,/m/0k4gwm,M,,1899.0,1.74,/m/07mqps,Philip Marlowe,The Big Sleep,1645598,/m/05k7xj
+Billy Connolly,hitman_with_a_heart,Il Duce,/m/0h5ny37,/m/01l7qw,/m/0k4k6j,M,56.0,1942.0,1.83,/m/02g7sp,,The Boondock Saints,517376,/m/02kp5p
+Christine Taylor,brainless_beauty,Marcia Brady,/m/0gynpvd,/m/0qdgc,/m/0k4k_5,F,23.0,1971.0,1.689,,,The Brady Bunch Movie,2158983,/m/06r5q1
+Matt Damon,hitman_with_a_heart,Jason Bourne,/m/03nb2p,/m/0169dl,/m/0k4kcz,M,31.0,1970.0,1.78,/m/0cnvdq1,Jason Bourne,The Bourne Identity,963986,/m/03twd6
+Clive Owen,consummate_professional,The Professor,/m/02t9dqy,/m/03v3xp,/m/0k4kdl,M,37.0,1964.0,1.89,/m/02w7gg,The Professor,The Bourne Identity,963986,/m/03twd6
+Paul Gleason,dean_bitterman,Richard Vernon,/m/098cllt,/m/0281lp,/m/0k4l6b,M,45.0,1939.0,1.842,,,The Breakfast Club,29943,/m/07cfg
+Nick Chinlund,bounty_hunter,Toombs,/m/0h5pbks,/m/079mh2,/m/0k4qdz,M,42.0,1961.0,1.88,,,The Chronicles of Riddick,670226,/m/031gmx
+Brandon Lee,tranquil_fury,Eric Draven,/m/0gyxm45,/m/01dkgz,/m/0k4td6,M,29.0,1965.0,1.83,/m/0d2by,,The Crow,406339,/m/024gy8
+Matt Damon,dirty_cop,Colin Sullivan,/m/02nwnqx,/m/0169dl,/m/0k4xjq,M,35.0,1970.0,1.78,/m/0cnvdq1,,The Departed,1349086,/m/04vr_f
+Michelle Pfeiffer,chanteuse,Susie Diamond,/m/02nwnx4,/m/0gx_p,/m/0k50tl,F,31.0,1958.0,1.71,/m/065b6q,,The Fabulous Baker Boys,770144,/m/03b1l8
+Teresa Palmer,bully,Vanessa,/m/0gy33q9,/m/09bkfc,/m/0k592n,F,20.0,1986.0,1.67,,,The Grudge 2,3226774,/m/08_pq1
+Rufus Sewell,evil_prince,Crown Prince Leopold,/m/0c1mgc2,/m/04wpvv,/m/0k5f_q,M,38.0,1967.0,1.829,/m/02w7gg,,The Illusionist,2571385,/m/07nt8p
+Pat Morita,eccentric_mentor,Mr. Kesuke Miyagi,/m/025rqg0,/m/01xpxv,/m/0k5jxz,M,51.0,1932.0,1.6,/m/0cn68,Mr. Kesuke Miyagi,The Karate Kid,91133,/m/0mmbb
+William Zabka,arrogant_kungfu_guy,Johnny Lawrence,/m/0h5nlb8,/m/038nt1,/m/0k5jyf,M,18.0,1965.0,1.73,/m/0h2138,,The Karate Kid,91133,/m/0mmbb
+William Zabka,jerk_jock,Johnny Lawrence,/m/0h5nlb8,/m/038nt1,/m/0k5jyf,M,18.0,1965.0,1.73,/m/0h2138,,The Karate Kid,91133,/m/0mmbb
+Ken Watanabe,warrior_poet,Katsumoto,/m/0c1rv08,/m/01_s7f,/m/0k5n1r,M,44.0,1959.0,1.85,/m/019kn7,,The Last Samurai,228274,/m/01h7bb
+Naseeruddin Shah,father_to_his_men,Captain Nemo,/m/014s4v,/m/087z12,/m/0k5nrw,M,52.0,1950.0,1.78,/m/0dryh9k,Captain Nemo,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Peta Wilson,heartbroken_badass,Mina Harker,/m/04vmkn,/m/01xcc7,/m/0k5ns0,F,32.0,1970.0,1.75,,Mina Harker,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Tony Curran,gentleman_thief,Rodney Skinner,/m/04vmm2,/m/0btp05,/m/0k5ns5,M,33.0,1969.0,1.829,,,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Tony Curran,loveable_rogue,Rodney Skinner,/m/04vmm2,/m/0btp05,/m/0k5ns5,M,33.0,1969.0,1.829,,,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Shane West,young_gun,Tom Sawyer,/m/0c1sd26,/m/054v2v,/m/0k5nsh,M,25.0,1978.0,1.82,/m/0fqz6,Tom Sawyer,The League of Extraordinary Gentlemen,4138142,/m/0bl3nn
+Johnny Depp,byronic_hero,"John Wilmot, 2nd Earl of Rochester",/m/0hzk4km,/m/0jfx1,/m/0k5ptk,M,41.0,1963.0,1.78,/m/01qhm_,,The Libertine,2157292,/m/06r1z1
+Johnny Depp,casanova,"John Wilmot, 2nd Earl of Rochester",/m/0hzk4km,/m/0jfx1,/m/0k5ptk,M,41.0,1963.0,1.78,/m/01qhm_,,The Libertine,2157292,/m/06r1z1
+Ian McKellen,eccentric_mentor,Gandalf,/m/0dz8q,/m/03ym1,/m/0k5s9d,M,62.0,1939.0,1.8,,,The Lord of the Rings: The Fellowship of the Ring,173941,/m/017gl1
+Viggo Mortensen,master_swordsman,Aragorn,/m/0gwlg,/m/01ps2h8,/m/0k5scp,M,45.0,1958.0,1.803,/m/0dqqwy,,The Lord of the Rings: The Return of the King,174251,/m/017jd9
+Horst Buchholz,young_gun,Chico,/m/02nwpw0,/m/01b8nj,/m/0k5tn5,M,26.0,1933.0,1.765,,,The Magnificent Seven,31556,/m/07rtf
+Cameron Diaz,chanteuse,Tina Carlyle,/m/04dwxnl,/m/0bksh,/m/0k5wls,F,21.0,1972.0,1.75,/m/042gtr,,The Mask,1485962,/m/05567m
+Pierce Brosnan,hitman_with_a_heart,Julian Noble,/m/0gl0r1r,/m/018p4y,/m/0k5wt7,M,52.0,1953.0,1.88,/m/03bkbh,,The Matador,3409175,/m/099_dw
+Hugo Weaving,consummate_professional,Agent Smith,/m/01v5dj,/m/016ypb,/m/0k5wz1,M,38.0,1960.0,1.88,,Agent Smith,The Matrix,30007,/m/07cz2
+Rachel Weisz,adventurer_archaeologist,Evelyn Carnahan-O'Connell,/m/02q86h3,/m/014x77,/m/0k5yzc,F,29.0,1970.0,1.7,/m/013b6_,,The Mummy,253828,/m/01ln5z
+Larry Miller,dean_bitterman,Dean Richmond,/m/0clm1fm,/m/06gb2q,/m/0k60j5,M,42.0,1953.0,1.8,/m/041rx,Dean Richmond,The Nutty Professor,5215066,/m/0d87hc
+Clint Eastwood,bounty_hunter,Josey Wales,/m/04640l1,/m/0bwh6,/m/0k61jr,M,46.0,1930.0,1.88,/m/09vc4s,,The Outlaw Josey Wales,75270,/m/0j_xl
+Clint Eastwood,heartbroken_badass,Josey Wales,/m/04640l1,/m/0bwh6,/m/0k61jr,M,46.0,1930.0,1.88,/m/09vc4s,,The Outlaw Josey Wales,75270,/m/0j_xl
+Sam Neill,crazy_jealous_guy,Alisdair Stewart,/m/0h2qv1_,/m/01ckhj,/m/0k63tb,M,45.0,1947.0,1.822,/m/02jvpv,,The Piano,133688,/m/0_b9f
+Kevin Kline,the_chief,Dreyfus,/m/0gghg4q,/m/01gbn6,/m/0k63xm,M,58.0,1947.0,1.88,/m/01qhm_,,The Pink Panther,2581392,/m/07phbc
+David Niven,gentleman_thief,Sir Charles Lytton,/m/0h5p0s1,/m/0f2df,/m/0k63yr,M,53.0,1910.0,1.83,/m/03lmx1,,The Pink Panther,2609169,/m/07rgg3
+Hugh Jackman,byronic_hero,Robert Angier,/m/0gwrw46,/m/03h_9lg,/m/0k65k8,M,38.0,1968.0,1.89,/m/0bbz66j,,The Prestige,2809621,/m/084302
+Chris Sarandon,evil_prince,Prince Humperdinck,/m/02nwq4w,/m/021b5,/m/0k65z0,M,45.0,1942.0,1.85,/m/038723,Prince Humperdinck,The Princess Bride,31153,/m/07nn0
+Mandy Patinkin,master_swordsman,Inigo Montoya,/m/02nwq4f,/m/01nvmd_,/m/0k65z5,M,34.0,1952.0,1.85,/m/041rx,,The Princess Bride,31153,/m/07nn0
+Mandy Patinkin,revenge,Inigo Montoya,/m/02nwq4f,/m/01nvmd_,/m/0k65z5,M,34.0,1952.0,1.85,/m/041rx,,The Princess Bride,31153,/m/07nn0
+Mandy Patinkin,tranquil_fury,Inigo Montoya,/m/02nwq4f,/m/01nvmd_,/m/0k65z5,M,34.0,1952.0,1.85,/m/041rx,,The Princess Bride,31153,/m/07nn0
+Danny Huston,cultured_badass,Arthur Burns,/m/0gjq057,/m/07vc_9,/m/0k66rt,M,42.0,1962.0,1.88,,,The Proposition,2912982,/m/08c4yn
+Danny Huston,warrior_poet,Arthur Burns,/m/0gjq057,/m/07vc_9,/m/0k66rt,M,42.0,1962.0,1.88,,,The Proposition,2912982,/m/08c4yn
+Chow Yun-Fat,hitman_with_a_heart,John Lee,/m/0gkjdbl,/m/0m9v7,/m/0k68kd,M,42.0,1955.0,1.83,/m/03bx0k4,,The Replacement Killers,1289336,/m/04qbts
+Tim Curry,crazy_jealous_guy,Frank N. Furter,/m/02rl5gf,/m/07rzf,/m/0k69_1,M,29.0,1946.0,1.75,/m/02w7gg,,The Rocky Horror Picture Show,25491,/m/06cgf
+Edmund Gwenn,absent_minded_professor,Dr. Harold Medford,/m/0h5whpq,/m/03bpcj,/m/0k6_br,M,,1877.0,,,,Them!,605676,/m/02vt5c
+The Rock,bounty_hunter,Beck,/m/05n7l7l,/m/014g_s,/m/0k6bqx,M,31.0,1972.0,1.96,/m/07j80c,,The Rundown,284697,/m/01pvs1
+Robert De Niro,gentleman_thief,Nick Wells,/m/0gxsb_f,/m/06cgy,/m/0k6d1f,M,57.0,1943.0,1.77,/m/0xnvg,,The Score,316092,/m/01tvvm
+Ian McKellen,absent_minded_professor,Dr. Reinhardt Lane,/m/0gynqd6,/m/03ym1,/m/0k6fkc,M,55.0,1939.0,1.8,,,The Shadow,5991505,/m/0fjjjh
+Anthony Hopkins,charmer,Hannibal Lecter,/m/0162dh,/m/0z4s,/m/0k6g86,M,53.0,1937.0,1.74,/m/02g7sp,Hannibal Lecter,The Silence of the Lambs,30006,/m/07cyl
+Anthony Hopkins,cultured_badass,Hannibal Lecter,/m/0162dh,/m/0z4s,/m/0k6g86,M,53.0,1937.0,1.74,/m/02g7sp,Hannibal Lecter,The Silence of the Lambs,30006,/m/07cyl
+Linda Hamilton,final_girl,Sarah Connor,/m/039cf6,/m/0g_z9,/m/0k6m_h,F,28.0,1956.0,1.68,,,The Terminator,30327,/m/07ghq
+Sabu Dastagir,loveable_rogue,Abu,/m/05n8151,/m/06k5vz,/m/0k6nkk,M,16.0,1924.0,,/m/01336l,,The Thief of Bagdad,3406838,/m/099wbj
+Elias Koteas,father_to_his_men,Capt. James 'Bugger' Staros,/m/0gl_jls,/m/073w14,/m/0k6nwg,M,37.0,1961.0,1.791,/m/067lrj,,The Thin Red Line,142465,/m/011ysn
+Jason Statham,consummate_professional,Frank Martin,/m/026yqk6,/m/034hyc,/m/0k6r5t,M,35.0,1967.0,1.75,,Frank Martin,The Transporter,972958,/m/03vnxd
+Bruce Willis,hitman_with_a_heart,Jimmy 'The Tulip' Tudeski,/m/04drwtv,/m/0h7pj,/m/0k6x0x,M,44.0,1955.0,1.8,,Jimmy 'The Tulip' Tudeski,The Whole Nine Yards,6446995,/m/0g5qvj
+Cary Grant,gentleman_thief,John Robie,/m/0gxrjsk,/m/09qh1,/m/0k75r_,M,51.0,1904.0,1.87,,,To Catch a Thief,239009,/m/01jntj
+Nicole Kidman,dumb_blonde,Suzanne Stone Maretto,/m/04dsqfd,/m/05dbf,/m/0k75t3,F,27.0,1967.0,1.791,/m/03bkbh,,To Die For,284619,/m/01pvl7
+Bill Paxton,young_gun,Morgan Earp,/m/0h2kg3k,/m/01s7zw,/m/0k776f,M,38.0,1955.0,1.8,,,Tombstone,525113,/m/02ljhg
+Orson Welles,dirty_cop,Police Captain Hank Quinlan,/m/0h6dyws,/m/05kh_,/m/0k78gf,M,42.0,1915.0,1.854,,,Touch of Evil,63504,/m/0h1kp
+Tom Hanks,fastest_gun_in_the_west,Sheriff Woody,/m/064dv4,/m/0bxtg,/m/0k78tv,M,39.0,1956.0,1.83,/m/02p4q5p,Sheriff Woody,Toy Story,53085,/m/0dyb1
+Denzel Washington,dirty_cop,Alonzo,/m/02nwrb1,/m/0pmhf,/m/0k79b3,M,46.0,1954.0,1.84,/m/0x67,,Training Day,171623,/m/01718w
+Ryan O'Neal,henpecked_husband,Dr. Howard Bannister,/m/05pstc6,/m/015g_7,/m/0k7_cy,M,30.0,1941.0,1.85,/m/02ctzb,,"What's Up, Doc?",1159860,/m/04c8th
+Jeff Bridges,playful_hacker,Kevin Flynn,/m/02nwrg6,/m/0flw6,/m/0k7cbl,M,32.0,1949.0,1.85,,,Tron,312757,/m/01tdmp
+David Warner,corrupt_corporate_executive,Ed Dillinger,/m/02nwrf_,/m/017khj,/m/0k7cbx,M,40.0,1941.0,1.87,/m/041rx,,Tron,312757,/m/01tdmp
+Brad Pitt,byronic_hero,Achilles,/m/0j1h5h0,/m/0c6qh,/m/0k7ckp,M,40.0,1963.0,1.8,,,Troy,323715,/m/01vw8k
+Nick Nolte,crazy_jealous_guy,Jake McKenna,/m/05nd8w4,/m/0lkr7,/m/0k7gxk,M,56.0,1941.0,1.85,/m/03bkbh,,U Turn,2423428,/m/07c11y
+Clint Eastwood,retired_outlaw,William Munny,/m/04cymz9,/m/0bwh6,/m/0k7l31,M,62.0,1930.0,1.88,/m/09vc4s,,Unforgiven,133574,/m/0_92w
+Ralph Fiennes,egomaniac_hunter,Victor Quartermaine,/m/051vwc9,/m/0170qf,/m/0k7vr9,M,42.0,1962.0,1.83,,,Wallace & Gromit: The Curse of the Were-Rabbit,1784731,/m/05wp1p
+Tim Robbins,crazy_survivalist,Harlan Ogilvy,/m/02nwrw_,/m/01nr36,/m/0k7w6s,M,46.0,1958.0,1.956,,,War of the Worlds,535335,/m/02mmwk
+Matthew Broderick,playful_hacker,David Lightman,/m/0459yk_,/m/01vlj1g,/m/0k7w8p,M,21.0,1962.0,1.73,/m/041rx,,WarGames,34130,/m/08720
+Clint Eastwood,egomaniac_hunter,John Wilson,/m/0gww9w1,/m/0bwh6,/m/0k818w,M,59.0,1930.0,1.88,/m/09vc4s,,"White Hunter, Black Heart",1179306,/m/04dx95
+Christopher Lloyd,corrupt_corporate_executive,Judge Doom,/m/06qh98,/m/01l_yg,/m/0k81j_,M,49.0,1938.0,1.85,,,Who Framed Roger Rabbit,76018,/m/0k2sk
+Bob Hoskins,hardboiled_detective,Eddie Valiant,/m/026hh6g,/m/015vq_,/m/0k81jp,M,45.0,1942.0,1.68,/m/09cqth,,Who Framed Roger Rabbit,76018,/m/0k2sk
+Kevin Kline,gadgeteer_genius,Artemus Gordon,/m/09rfdj_,/m/01gbn6,/m/0k82tg,M,51.0,1947.0,1.88,/m/01qhm_,,Wild Wild West,244610,/m/01kff7
+Kenneth Branagh,gadgeteer_genius,Dr. Loveless,/m/027jdxh,/m/0prjs,/m/0k82tm,M,38.0,1960.0,1.77,/m/0d7wh,,Wild Wild West,244610,/m/01kff7
+Val Kilmer,master_swordsman,Madmartigan,/m/0gy8mqb,/m/0d_84,/m/0k8378,M,28.0,1959.0,1.83,/m/07bch9,,Willow,198313,/m/01hw5kk
+Patricia Hayes,eccentric_mentor,Fin Raziel,/m/0h5qr8f,/m/064b3c,/m/0k837x,F,78.0,1909.0,1.54,,,Willow,198313,/m/01hw5kk
+Laurence Olivier,crazy_jealous_guy,Heathcliff,/m/02nws49,/m/0byfz,/m/0k86mc,M,31.0,1907.0,1.78,,,Wuthering Heights,3823100,/m/0b1twg
+Hugh Jackman,loveable_rogue,Wolverine,/m/01s283,/m/03h_9lg,/m/0k86q4,M,31.0,1968.0,1.89,/m/0bbz66j,,X-Men,19479460,/m/0d90m
+Christian Bale,heartbroken_badass,Bruce Wayne,/m/0ch1fwy,/m/01wy5m,/m/0n4g1dv,M,38.0,1974.0,1.83,/m/02w7gg,,The Dark Knight Rises,29075630,/m/0bpm4yw
