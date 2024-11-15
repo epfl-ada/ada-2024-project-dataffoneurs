@@ -8,15 +8,13 @@ This project investigates the relationship between emotional arcs in films and t
 
  -  Does a universal or genre-specific emotional arc exist across movies, and how does it change over time and across different eras?
 
- -  What emotions or sentiments dominate in each genre?
+ -  What emotions or sentiments dominate in each genre and why?
 
- - How do emotional arcs in films within the same genre vary across continents? Especially do differences emerge when North America is not taken into account ?
-
- -  How does the emotional arc in a specific genre (e.g., action, drama) vary across continents, and can we link this variation to historical contexts or events?
+ - How do emotional arcs in films within the same genre vary across continents, and can we link this variation to historical contexts or events?? Especially do differences emerge when North America is not taken into account ?
 
  - To what extent does the average emotional tone of a film influence its success (box office, ratings, awards)? Is emotion a leading factor? Does a more varied emotional arc contribute to the film’s success?
 
- - How do emotions differ between successful and unsuccessful films? What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
+ - How do emotions differ between successful and unsuccessful films? What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
 
 ## Additional datasets
 To address missing data in our dataset, we incorporate additional information from Wikipedia pages for films to complete the CMU dataset. Approximately 40% of film summaries and over 90% of box office values are missing, and these values are essential for our analysis. To fill these gaps, we use libraries like wikipedia-api and pywikibot, and in cases requiring more detail, we utilize requests and BeautifulSoup for web scraping. Our approach involves extracting summaries from the Plot/Synopsis/Summary sections and box office revenue from the InfoBox, ensuring we access the correct page by handling title variations, such as adding "(film), and handling page redirections.
