@@ -40,15 +40,15 @@ Details of the methods are presented in the results notebook.
 
 | Week          | Description | Person in charge |
 | -----------   | ----------- | ----------- |
-| Week 10 | Finish scraping if needed, run sentiment analysis on all films once done | |
-| Week 10 | Draw plots, answer general questions about general dynamics for all movies, across genres, time, and continent |  |
-| Week 11 | Dig deeper into differences across genres | |
-| Week 11 | Dig deeper into differences continent time | |
-| Week 11 | Dig deeper into differences across continents |  |
-| Week 12 | Investigate the box office - emotional relationship in detail |  |
-| Week 12 | Investigate the reviews, awards - emotional relationship in detail |
-| Week 13 | Get together week, analysis of results together |  |
-| Week 14 |  Data story writing  ||
+| Week 10 | Finish scraping if needed, run sentiment analysis on all films once done | Ines |
+| Week 10 | Draw plots, answer general questions about general dynamics for all movies, across genres, time, and continent | Florian |
+| Week 11 | Dig deeper into differences across genres | Alix |
+| Week 11 | Dig deeper into differences continent time | Mathieu |
+| Week 11 | Dig deeper into differences across continents | Xavier |
+| Week 12 | Investigate the box office - emotional relationship in detail | Mathieu |
+| Week 12 | Investigate the reviews, awards - emotional relationship in detail | Ines | 
+| Week 13 | Get together week, analysis of results together | Xavier |
+| Week 14 |  Data story writing  | Alix and Florian |
 
 
 
