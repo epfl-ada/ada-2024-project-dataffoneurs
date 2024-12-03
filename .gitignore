@@ -1,2 +1,8 @@
 data/final_dataset.csv
 data/final_dataset.pkl
+data/emotions_data_raw.csv
+data/emotions_data_raw.pkl
+data/emotions_interpolated_10.csv
+data/emotions_interpolated_10.pkl
+data/emotions_interpolated_20.csv
+data/emotions_interpolated_20.pkl
