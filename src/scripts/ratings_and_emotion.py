@@ -97,7 +97,7 @@ def define_variables():
         'unique_dominant_emotions': 'Unique dominant emotions'
     }
     
-    # Structure to contain all continent data with appropriate title for display
+    # Structure to contain all continent data with appropriate titles for display
     continent_data = [
         (emotions_Oceania, Oceania_films, "Oceania"),
         (emotions_Africa, Africa_films, "Africa"), 
