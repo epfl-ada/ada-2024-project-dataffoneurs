@@ -2,25 +2,33 @@
 
 ## Abstract
 
-This project investigates the relationship between emotional arcs in films and their success, focusing on how emotions evolve within genres, across continents, and over time. The goal is to identify whether universal or genre-specific emotional patterns exist and how these patterns influence the reception of films, particularly in terms of box office performance, ratings, and awards. The project explores whether films with more varied emotional trajectories perform better and whether certain emotional dynamics optimize success. Additionally, it examines the role of historical context in shaping emotional arcs across different genres. By analyzing these emotional patterns, the research aims to uncover key insights into how emotions impact audience engagement and contribute to a film’s success. The motivation behind this work is to offer a deeper understanding of the emotional strategies that make films resonate with viewers globally, providing a better understanding of the factors that drive their enjoyment and connection to the story.
+This project delves into the intricate relationship between emotions in films and their reception, using a multi-faceted analysis that combines sentiment classification, clustering, and exploratory data techniques. By leveraging movie summaries, we extract emotional arcs—capturing sentiments such as joy, sadness, and fear—and analyze their patterns across genres, time periods, and continents. Through techniques like PCA and clustering, we uncover distinct emotional dynamics and investigate how these relate to key performance indicators such as ratings.  
 
-## Research questions we aim to answer
+The motivation behind this work lies in understanding the emotional strategies that resonate with audiences and drive a film’s impact. We explore how societal changes, cinematic innovations, and cultural contexts shape emotional storytelling. This project aims to uncover the emotional fingerprints of successful films and offers insights into how films captivate, comfort, or challenge their audiences, blending art and analysis into a compelling narrative of cinema's emotional evolution.
 
- -  Does a universal or genre-specific emotional arc exist across movies, and how does it change over time and across different eras?
+## Research questions we aim to answer 
 
- -  What emotions or sentiments dominate in each genre and why?
+- **Emotional Patterns Across Time and Space:**  
+   - How do emotional arcs in films evolve across time and continents?  
+   - Are these patterns influenced by societal changes, technological innovations, or historical events?  
 
- - How do emotional arcs in films within the same genre vary across continents, and can we link this variation to historical contexts or events?? Especially do differences emerge when North America is not taken into account ?
+- **Genre-Specific Dynamics:**  
+   - Do specific genres exhibit distinct emotional trajectories?  
+   - What are the dominant emotions in each genre, and how do they shift over time and across cultures?  
 
- - To what extent does the average emotional tone of a film influence its success (box office, ratings, awards)? Is emotion a leading factor? Does a more varied emotional arc contribute to the film’s success?
+- **Impact on Film Success:**  
+   - How do emotional arcs influence ratings ?  
+   - Do films with more varied emotional arcs perform better?  
+   - Does the emotional tone at a film’s conclusion (e.g., joyful or melancholic) affect its reception?   
+   - How does emotional complexity (the interplay of multiple emotions) contribute to a film's success? 
 
- - How do emotions differ between successful and unsuccessful films? What impact does a film’s ending have on its success—should it end on a high note or a more melancholic one? Does a joyful conclusion lead to greater success?
 
 ## Additional datasets
-To address missing data in our dataset, we incorporate additional information from Wikipedia pages for films to complete the CMU dataset. Approximately 40% of film summaries and over 90% of box office values are missing, and these values are essential for our analysis. To fill these gaps, we use libraries like wikipedia-api and pywikibot, and in cases requiring more detail, we utilize requests and BeautifulSoup for web scraping. Our approach involves extracting summaries from the Plot/Synopsis/Summary sections and box office revenue from the InfoBox, ensuring we access the correct page by handling title variations, such as adding "(film), and handling page redirections.
+To address gaps in our dataset, we incorporated supplementary information from Wikipedia to enhance the CMU Movie Dataset's completeness. Approximately 40% of film summaries and over 90% of box office values were missing—critical data for our analysis of emotional arcs, ratings, and success metrics. To fill these gaps, we employed libraries like `wikipedia-api` and `pywikibot` and used `requests` and `BeautifulSoup` for web scraping in more complex cases.
 
-This process enriches our data, specifically targeting films with incomplete summaries (replacing those under 200 words with the Wikipedia entry) and adding missing box office values.
-Regarding the data size, as we have applied our scraping techniques to a smaller sample of 2000 elements with a running time of 12 minutes for the summaries and 25 minutes for the box office revenues, we estimate a maximal running time of 8 hours and 16 hours. Nonetheless, we expect our running time to be lower as we will impose higher validity and usefulness constraints on our dataset's elements, disqualifying and dropping outlier elements (too short "films", films with too many unknows unable to be scraped,...)
+We extracted summaries from the Plot/Synopsis/Summary sections and box office values from the InfoBox. Special care was taken to handle variations in titles, adding "(film)" or resolving page redirections to ensure accurate matches. Summaries with fewer than 200 words were replaced with their Wikipedia counterparts, and box office values were systematically retrieved.
+
+Through this process, we recovered 36% of missing summaries and ?????????% of missing box office values, significantly enriching the dataset. By focusing on validity constraints, such as removing outliers and incomplete entries, we ensured the dataset's usability while enhancing its comprehensiveness.
 
 ## Methods
 
@@ -32,23 +40,18 @@ To be able to compare emotion dynamics across movies, we use interpolation (or e
 
 In the final step, we fill in any missing data, such as box office revenue, release year, or genre, by scraping additional sources as needed and remove every row with NaN value. This thorough process results in a comprehensive dataset that captures not only the sentiment profile of each movie summary but also key contextual and financial data.
 
+Once the dataset was complete, we applied Principal Component Analysis (PCA) to uncover underlying patterns in the emotional profiles of movies. By reducing the seven-dimensional emotion vectors—anger, disgust, fear, joy, neutral, sadness, and surprise—into two or three principal components, PCA highlighted the most significant variations in the data while preserving interpretability. This approach allowed us to identify correlations between emotions, visualize differences across genres, and track temporal shifts in emotional dynamics.
+
+Building on these insights, we implemented K-means clustering to group movies based on their emotional signatures. The number of clusters was determined using metrics like the Elbow Method and Silhouette Scores, ensuring an optimal balance between granularity and clarity. Each cluster revealed distinct emotional patterns, linking specific emotional profiles to genres, historical contexts, and measures of success such as box office revenue and ratings. Together, PCA and clustering provided a deeper understanding of how emotional strategies shape audience engagement and storytelling.
+
 Details of the methods are presented in the results notebook.
 
-## Proposed Timeline
-
-| Week          | Description | Person in charge |
-| -----------   | ----------- | ----------- |
-| Week 10 | Finish scraping if needed, run sentiment analysis on all films once done | Ines |
-| Week 10 | Draw plots, answer general questions about general dynamics for all movies, across genres, time, and continent | Florian |
-| Week 11 | Dig deeper into differences across genres | Alix |
-| Week 11 | Dig deeper into differences continent time | Mathieu |
-| Week 11 | Dig deeper into differences across continents | Xavier |
-| Week 12 | Investigate the box office - emotional relationship in detail | Mathieu |
-| Week 12 | Investigate the reviews, awards - emotional relationship in detail | Ines | 
-| Week 13 | Get together week, analysis of results together | Xavier |
-| Week 14 |  Data story writing  | Alix and Florian |
-
-
+## Contributions of all group member
+- Mathieu : sentiment analysis, PCA, clustering, exploration of the data, wrote the intro part of the data story.
+- Xavier : sentiment analysis, PCA, clustering, exploration of the data, wrote the sentiment analysis part of the data story.
+- Ines : scraping, analysis between emotions and ratings and wrote that part of the data story.
+- Florian : data cleaning, analyzed the emotional arc from different perspectives, explored the emotional complexity in runtime,wrote the uncovering patterns in film sentiment part of the data story.
+- Alix: data cleaning, historical analysis of the emotional arc, graphs of the sentimental analysis across continents, wrote the historical analysis part of the data story.
 
 
 
