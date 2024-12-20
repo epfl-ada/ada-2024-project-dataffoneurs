@@ -28,7 +28,7 @@ To address gaps in our dataset, we incorporated supplementary information from W
 
 We extracted summaries from the Plot/Synopsis/Summary sections and box office values from the InfoBox. Special care was taken to handle variations in titles, adding "(film)" or resolving page redirections to ensure accurate matches. Summaries with fewer than 200 words were replaced with their Wikipedia counterparts, and box office values were systematically retrieved.
 
-Through this process, we recovered 85% of missing summaries and 70% of missing box office values, significantly enriching the dataset. By focusing on validity constraints, such as removing outliers and incomplete entries, we ensured the dataset's usability while enhancing its comprehensiveness.
+Through this process, we recovered 36% of missing summaries and ?????????% of missing box office values, significantly enriching the dataset. By focusing on validity constraints, such as removing outliers and incomplete entries, we ensured the dataset's usability while enhancing its comprehensiveness.
 
 ## Methods
 
