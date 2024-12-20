@@ -226,7 +226,19 @@ def merge_endings_with_metadata(endings, df_metadata):
     
     return df_metadata_with_endings
 
-def plot_category_distribution_by_ending(df_metadata_with_endings, genre_colors):
+def plot_category_distribution_by_ending(df_metadata_with_endings):
+    # Map genres to colors
+    genre_colors = {
+        "Action/Adventure": "#6699FF",  # Soft Blue
+        "Comedy": "#FFCC66",           # Soft Yellow/Orange
+        "Drama": "#66CC99",            # Soft Teal
+        "Family/Animation": "#FF9999", # Soft Coral/Red
+        "Fantasy/Sci-Fi": "#CC99FF",   # Soft Lavender
+        "Horror": "#996666",           # Muted Brown
+        "Romance": "#FFB3CC",          # Soft Pink
+        "Thriller": "#A9A9A9"          # Neutral Gray
+    }     
+
     # First, explode the categories
     df_endings_exploded = df_metadata_with_endings[['Wikipedia_movie_ID', 'category', 'ending', 'Rating']].explode('category')
 
@@ -361,6 +373,9 @@ def plot_avg_rating_ending(summary):
     return fig_avg_rating_ending
 
 def calculate_emotional_diversity_metrics(df): 
+    # List of emotion columns
+    emotion_cols = ['anger', 'disgust', 'fear', 'joy', 'neutral', 'sadness', 'surprise']
+
     diversity_metrics = {}
     
     # 1. Shannon Entropy across all timesteps
@@ -465,7 +480,15 @@ def create_supplementary_visualizations(df, analysis_df, title=None):
     plt.tight_layout()
     return fig
 
-def plot_correlation_bars(correlations, metric_display_names):
+def plot_correlation_bars(correlations):
+    # To display with a prettier name the emotional diversity metrics
+    metric_display_names = {
+        'shannon_entropy': 'Shannon entropy',
+        'emotion_transitions': 'Emotion transitions',
+        'emotion_variation': 'Emotion variation',
+        'unique_dominant_emotions': 'Unique dominant emotions'
+    }
+
     # Extract correlation values and p-values from the correlation results
     metrics = []
     values = []
@@ -557,6 +580,14 @@ def plot_correlation_bars(correlations, metric_display_names):
     return fig
 
 def create_and_save_interactive_diversity_plot(continent_data):
+    # To display with a prettier name the emotional diversity metrics
+    metric_display_names = {
+        'shannon_entropy': 'Shannon entropy',
+        'emotion_transitions': 'Emotion transitions',
+        'emotion_variation': 'Emotion variation',
+        'unique_dominant_emotions': 'Unique dominant emotions'
+    }
+
     data_store = {}
     for emotion_dataset, general_dataset, continent in continent_data:
         if continent in ['North America', 'Asia', 'Europe', 'South America']:
@@ -816,6 +847,17 @@ def create_and_save_interactive_diversity_plot(continent_data):
     return fig
 
 def plot_mean_ratings_with_error(summary_stats):
+    # Map emotions to colors
+    emotion_colors = {
+        "anger": "#FF6666",    # Medium red
+        "disgust": "#B266FF",  # Medium purple
+        "fear": "#FFB266",     # Medium orange
+        "joy": "#66FF66",      # Medium green
+        "neutral": "#A9A9A9",  # Medium gray
+        "sadness": "#66B2FF",  # Medium blue
+        "surprise": "#FFFF66"  # Medium yellow
+    }
+
     # Prepare data
     categories = summary_stats.index
     
@@ -860,6 +902,8 @@ def plot_mean_ratings_with_error(summary_stats):
     
     return fig
 def analyze_ratings_by_dominant_emotion(df, df_general):
+    # List of emotion columns
+    emotion_cols = ['anger', 'disgust', 'fear', 'joy', 'neutral', 'sadness', 'surprise']
       
     # Calculate mean emotion values for each movie
     movie_emotions = df.groupby('Wikipedia_movie_ID')[emotion_cols].mean()
@@ -1019,6 +1063,18 @@ def plot_continental_comparison(summary_stats_na, summary_stats_asia):
     return fig
 
 def calculate_and_plot_mean_ratings(df_general):
+    # Map genres to colors
+    genre_colors = {
+        "Action/Adventure": "#6699FF",  # Soft Blue
+        "Comedy": "#FFCC66",           # Soft Yellow/Orange
+        "Drama": "#66CC99",            # Soft Teal
+        "Family/Animation": "#FF9999", # Soft Coral/Red
+        "Fantasy/Sci-Fi": "#CC99FF",   # Soft Lavender
+        "Horror": "#996666",           # Muted Brown
+        "Romance": "#FFB3CC",          # Soft Pink
+        "Thriller": "#A9A9A9"          # Neutral Gray
+    }     
+
     # Explode the categories into separate rows
     analysis_df = df_general[['Wikipedia_movie_ID', 'category', 'Rating']].explode('category')
     
@@ -1127,7 +1183,9 @@ def load_and_merge_emotion_clusters(df_metadata, emotion_clusters_path):
     return df_metadata_clusters
 
 
-def analyze_emotion_clusters(df_metadata_clusters, emotions_wo_neutral):
+def analyze_emotion_clusters(df_metadata_clusters):
+    emotions_wo_neutral = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
+
     results = {}
     
     for emotion in emotions_wo_neutral:
@@ -1179,7 +1237,10 @@ def analyze_emotion_clusters(df_metadata_clusters, emotions_wo_neutral):
     
     return results
 
-def plot_emotion_clusters_by_category(df_metadata_clusters, emotions_wo_neutral):
+def plot_emotion_clusters_by_category(df_metadata_clusters):
+    # List of emotions without neutral 
+    emotions_wo_neutral = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
+
     # First, explode the dataset by category
     df_exploded = df_metadata_clusters.explode('category')
 
@@ -1503,6 +1564,20 @@ def plot_movie_emotion_arc_with_cluster_mean(
     return fig
 
 def plot_interactive_categories_clusters(df_metadata_clusters):
+    # List of emotions without neutral
+    emotions_wo_neutral = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
+
+    # Map genres to colors
+    genre_colors = {
+        "Action/Adventure": "#6699FF",  # Soft Blue
+        "Comedy": "#FFCC66",           # Soft Yellow/Orange
+        "Drama": "#66CC99",            # Soft Teal
+        "Family/Animation": "#FF9999", # Soft Coral/Red
+        "Fantasy/Sci-Fi": "#CC99FF",   # Soft Lavender
+        "Horror": "#996666",           # Muted Brown
+        "Romance": "#FFB3CC",          # Soft Pink
+        "Thriller": "#A9A9A9"          # Neutral Gray
+    }     
     # First, explode the dataset by category
     df_exploded = df_metadata_clusters.explode('category')
     
@@ -1804,6 +1879,9 @@ def find_top_10_closest_films(
     }
 
 def print_cluster_performance_stats(df_metadata_clusters):
+    # List of emotions without neutral
+    emotions_wo_neutral = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
+
     # First, explode the dataset by category
     df_exploded = df_metadata_clusters.explode('category')
     
