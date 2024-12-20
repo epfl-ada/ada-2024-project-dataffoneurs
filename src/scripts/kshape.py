@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.utils import resample
 from tslearn.clustering import KShape
-plt.style.use('seaborn-whitegrid')
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
