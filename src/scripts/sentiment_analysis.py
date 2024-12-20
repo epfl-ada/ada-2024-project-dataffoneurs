@@ -16,7 +16,7 @@ from scipy.interpolate import interp1d
 
 nltk.download('punkt')
 
-DATA_PATH = "data/our_movie_data_extended.csv"
+DATA_PATH = "data/final_dataset.csv"
 
 # Preprocessing
 def preprocess():
