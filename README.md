@@ -1,4 +1,6 @@
-# From Laughs to Tears: How Emotional Journeys Win Audiences 
+# Behind the Curtains: The Emotional Arcs of Cinema 
+
+__LINK TO OUR DATASTORY:__ https://xavmarch13.github.io/dataffoneurs-story/
 
 ## Abstract
 
@@ -48,7 +50,7 @@ Details of the methods are presented in the results notebook.
 
 ## Contributions of all group member
 - Mathieu : sentiment analysis, PCA, clustering, exploration of the data, wrote the intro part of the data story.
-- Xavier : sentiment analysis, PCA, clustering, exploration of the data, wrote the sentiment analysis part of the data story.
+- Xavier : sentiment analysis and general emotion analysis, k-shape clustering, website animation and links, exploration of the data, wrote the sentiment analysis part of the data story and k-shape.
 - Ines : scraping, analysis between emotions and ratings and wrote that part of the data story.
 - Florian : data cleaning, analyzed the emotional arc from different perspectives, explored the emotional complexity in runtime,wrote the uncovering patterns in film sentiment part of the data story.
 - Alix: data cleaning, historical analysis of the emotional arc, graphs of the sentimental analysis across continents, wrote the historical analysis part of the data story.
