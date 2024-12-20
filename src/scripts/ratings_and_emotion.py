@@ -97,7 +97,8 @@ def define_variables(continent_data):
     SA_films, emotions_SA = continent_data['South America']
     Oceania_films, emotions_Oceania = continent_data['Oceania']
 
-    # Variable definitions 
+    # Variable definitions here
+
     # To display with a prettier name the emotional diversity metrics
     metric_display_names = {
         'shannon_entropy': 'Shannon entropy',
