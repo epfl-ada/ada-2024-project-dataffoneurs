@@ -1,6 +1,6 @@
 # Behind the Curtains: The Emotional Arcs of Cinema 
 
-__LINK TO OUR DATASTORY:__ https://xavmarch13.github.io/dataffoneurs-story/
+_LINK TO OUR DATASTORY:_ https://xavmarch13.github.io/dataffoneurs-story/
 
 ## Abstract
 
@@ -10,15 +10,15 @@ The motivation behind this work lies in understanding the emotional strategies t
 
 ## Research questions we aim to answer 
 
-- **Emotional Patterns Across Time and Space:**  
+- *Emotional Patterns Across Time and Space:*  
    - How do emotional arcs in films evolve across time and continents?  
    - Are these patterns influenced by societal changes, technological innovations, or historical events?  
 
-- **Genre-Specific Dynamics:**  
+- *Genre-Specific Dynamics:*  
    - Do specific genres exhibit distinct emotional trajectories?  
    - What are the dominant emotions in each genre, and how do they shift over time and across cultures?  
 
-- **Impact on Film Success:**  
+- *Impact on Film Success:*  
    - How do emotional arcs influence ratings ?  
    - Do films with more varied emotional arcs perform better?  
    - Does the emotional tone at a film’s conclusion (e.g., joyful or melancholic) affect its reception?   
@@ -26,11 +26,11 @@ The motivation behind this work lies in understanding the emotional strategies t
 
 
 ## Additional datasets
-To address gaps in our dataset, we incorporated supplementary information from Wikipedia to enhance the CMU Movie Dataset's completeness. Approximately 40% of film summaries and over 90% of box office values were missing—critical data for our analysis of emotional arcs, ratings, and success metrics. To fill these gaps, we employed libraries like `wikipedia-api` and `pywikibot` and used `requests` and `BeautifulSoup` for web scraping in more complex cases.
+To address gaps in our dataset, we incorporated supplementary information from Wikipedia to enhance the CMU Movie Dataset's completeness. Approximately 40% of film summaries and all of the rating values were missing—critical data for our analysis of emotional arcs, ratings, and success metrics. To fill these gaps, we employed libraries like wikipedia-api and pywikibot and used requests and BeautifulSoup for web scraping in more complex cases.
 
-We extracted summaries from the Plot/Synopsis/Summary sections and box office values from the InfoBox. Special care was taken to handle variations in titles, adding "(film)" or resolving page redirections to ensure accurate matches. Summaries with fewer than 200 words were replaced with their Wikipedia counterparts, and box office values were systematically retrieved.
+We extracted summaries from the Plot/Synopsis/Summary sections. Special care was taken to handle variations in titles, adding "(film)" or resolving page redirections to ensure accurate matches. Summaries with fewer than 200 words were replaced with their Wikipedia counterparts.
 
-Through this process, we recovered 36% of missing summaries and 93% of missing box office values, significantly enriching the dataset. By focusing on validity constraints, such as removing outliers and incomplete entries, we ensured the dataset's usability while enhancing its comprehensiveness.
+Through this process, we recovered 36% of missing summaries and 93% of missing rating values, significantly enriching the dataset. By focusing on validity constraints, such as removing outliers and incomplete entries, we ensured the dataset's usability while enhancing its comprehensiveness.
 
 ## Methods
 
@@ -40,11 +40,11 @@ Once the summary is ready, we segment it—either by splitting into phrases or b
 
 To be able to compare emotion dynamics across movies, we use interpolation (or extrapolation when needed), to be able to have a common timeline for all movies. This allows us to approximate the emotions through the length of a movie with the emotions brought out by the summary.
 
-In the final step, we fill in any missing data, such as box office revenue, release year, or genre, by scraping additional sources as needed and remove every row with NaN value. This thorough process results in a comprehensive dataset that captures not only the sentiment profile of each movie summary but also key contextual and financial data.
+In the final step, we fill in any missing data, such as summary and ratings.
 
 Once the dataset was complete, we applied Principal Component Analysis (PCA) to uncover underlying patterns in the emotional profiles of movies. By reducing the seven-dimensional emotion vectors—anger, disgust, fear, joy, neutral, sadness, and surprise—into two or three principal components, PCA highlighted the most significant variations in the data while preserving interpretability. This approach allowed us to identify correlations between emotions, visualize differences across genres, and track temporal shifts in emotional dynamics.
 
-Building on these insights, we implemented K-means clustering to group movies based on their emotional signatures. The number of clusters was determined using metrics like the Elbow Method and Silhouette Scores, ensuring an optimal balance between granularity and clarity. Each cluster revealed distinct emotional patterns, linking specific emotional profiles to genres, historical contexts, and measures of success such as box office revenue and ratings. Together, PCA and clustering provided a deeper understanding of how emotional strategies shape audience engagement and storytelling.
+Building on these insights, we implemented K-means clustering to group movies based on their emotional signatures. The number of clusters was determined using metrics like the Elbow Method and Silhouette Scores, ensuring an optimal balance between granularity and clarity. Each cluster revealed distinct emotional patterns, linking specific emotional profiles to genres, historical contexts, and measures of success such as ratings. Together, PCA and clustering provided a deeper understanding of how emotional strategies shape audience engagement and storytelling.
 
 Details of the methods are presented in the results notebook.
 
@@ -53,7 +53,4 @@ Details of the methods are presented in the results notebook.
 - Xavier : sentiment analysis and general emotion analysis, k-shape clustering, website animation and links, exploration of the data, wrote the sentiment analysis part of the data story and k-shape.
 - Ines : scraping, analysis between emotions and ratings and wrote that part of the data story.
 - Florian : data cleaning, analyzed the emotional arc from different perspectives, explored the emotional complexity in runtime,wrote the uncovering patterns in film sentiment part of the data story.
-- Alix: data cleaning, historical analysis of the emotional arc, graphs of the sentimental analysis across continents, wrote the historical analysis part of the data story.
-
-
-
+- Alix: data cleaning, historical analysis of the emotional arc, graphs of the sentimental analysis across continents, wrote the historical analysis part of the data story.
