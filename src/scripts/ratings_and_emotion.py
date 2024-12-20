@@ -23,13 +23,22 @@ from plotly.subplots import make_subplots
 from ipywidgets import widgets
 from IPython.display import display, clear_output
 
-# Load the dataset
-DATAPATH_metadata = "data/final_dataset.pkl"
-DATAPATH_emotions20 = "data/emotions_interpolated_20.pkl"
-DATAPATH_mean_emotion_arcs =  "data/mean_emotion_arcs_k_shape_clusters.pkl"
 
-# Map countries into their continents
-country_mapping = {
+def read_datasets():
+    # Load the dataset
+    DATAPATH_metadata = "data/final_dataset.pkl"
+    DATAPATH_emotions20 = "data/emotions_interpolated_20.pkl"
+    DATAPATH_mean_emotion_arcs =  "data/mean_emotion_arcs_k_shape_clusters.pkl"
+
+    df_metadata = pd.read_pickle(DATAPATH_metadata)
+    df_emotion = pd.read_pickle(DATAPATH_emotions20)
+    df_mean_emotion_arcs_k_cluster = pd.read_pickle(DATAPATH_mean_emotion_arcs)
+    return df_metadata, df_emotion, df_mean_emotion_arcs_k_cluster
+
+
+def separate_by_continent(df_metadata, df_emotion):
+    # Map countries into their continents
+    country_mapping = {
     'Asia': [
         'Afghanistan', 'Armenia', 'Azerbaijan', 'Bahrain', 'Bangladesh', 'Bhutan', 'Brunei', 'Cambodia', 'China', 'Cyprus', 'Georgia', 
         'India', 'Indonesia', 'Iran', 'Iraq', 'Israel', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Lebanon', 'Malaysia', 
@@ -67,16 +76,8 @@ country_mapping = {
     'Oceania': [
         'Australia', 'Fiji', 'Kiribati', 'Marshall Islands', 'Micronesia', 'Nauru', 'New Zealand', 'Palau', 'Papua New Guinea', 'Samoa', 
         'Solomon Islands', 'Tonga', 'Tuvalu', 'Vanuatu'
-    ]
-}
+    ]}
 
-def read_datasets(metadata_path, emotions_path, mean_emotion_arcs_path):
-    df_metadata = pd.read_pickle(metadata_path)
-    df_emotion = pd.read_pickle(emotions_path)
-    df_mean_emotion_arcs_k_cluster = pd.read_pickle(mean_emotion_arcs_path)
-    return df_metadata, df_emotion, df_mean_emotion_arcs_k_cluster
-
-def separate_by_continent(df_metadata, df_emotion, country_mapping):
     continent_data = {}
     
     for continent, countries in country_mapping.items():
@@ -1168,10 +1169,6 @@ def analyze_emotion_clusters(df_metadata_clusters, emotions_wo_neutral):
         print("\n\n")
     
     return results
-
-# Usage
-emotions_wo_neutral = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
-results = analyze_emotion_clusters(df_metadata_clusters, emotions_wo_neutral)
 
 def plot_emotion_clusters_by_category(df_metadata_clusters, emotions_wo_neutral):
     # First, explode the dataset by category
