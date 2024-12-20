@@ -88,7 +88,15 @@ def separate_by_continent(df_metadata, df_emotion):
     return continent_data
 
 
-def define_variables():
+def define_variables(continent_data):
+
+    NA_films, emotions_NA = continent_data['North America']
+    Asia_films, emotions_Asia = continent_data['Asia']
+    Africa_films, emotions_Africa = continent_data['Africa']
+    Europe_films, emotions_Europe = continent_data['Europe']
+    SA_films, emotions_SA = continent_data['South America']
+    Oceania_films, emotions_Oceania = continent_data['Oceania']
+
     # Variable definitions 
     # To display with a prettier name the emotional diversity metrics
     metric_display_names = {
