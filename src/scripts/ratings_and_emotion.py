@@ -579,24 +579,26 @@ def plot_correlation_bars(correlations):
     fig.show()
     return fig
 
-def create_and_save_interactive_diversity_plot(continent_data):
-    # To display with a prettier name the emotional diversity metrics
+
+def create_and_save_interactive_diversity_subplot(continent_data):
+     
+     # To display with a prettier name the emotional diversity metrics
     metric_display_names = {
         'shannon_entropy': 'Shannon entropy',
         'emotion_transitions': 'Emotion transitions',
         'emotion_variation': 'Emotion variation',
         'unique_dominant_emotions': 'Unique dominant emotions'
     }
-
+     
     data_store = {}
     for emotion_dataset, general_dataset, continent in continent_data:
         if continent in ['North America', 'Asia', 'Europe', 'South America']:
             diversity_metrics = calculate_emotional_diversity_metrics(emotion_dataset)
             correlations, regression_results, analysis_df = analyze_emotion_diversity_vs_ratings(
                 general_dataset, diversity_metrics)
-            
+                
             analysis_df['Continent'] = continent
-            
+                
             for metric in metric_display_names.keys():
                 key = (continent, metric_display_names[metric])
                 data_store[key] = {
@@ -604,246 +606,116 @@ def create_and_save_interactive_diversity_plot(continent_data):
                     'correlation': correlations[metric]['correlation'],
                     'p_value': correlations[metric]['p_value'],
                     'regression': regression_results[metric],
-                    'data_metric': metric
-                }
+                    'data_metric': metric}
     
-    # Create the base figure
-    fig = go.Figure()
-    
-    def create_stat_annotation(continent, metric, data_store):
-        key = (continent, metric)
-        data = data_store[key]
-        
-        stats_text = (
-            f"<b>Statistical results:</b><br><br>"
-            f"<b>Pearson correlation:</b> {data['correlation']:.3f}<br>"
-            f"<b>P-value:</b> {data['p_value']:.3e}<br>"
-            f"<b>OLS coefficient:</b> {data['regression'].params[1]:.3f}"
-        )
-        
-        return dict(
-            text=stats_text,
-            x=0.02,
-            y=0.98,
-            xref="paper",
-            yref="paper",
-            align="left",
-            showarrow=False,
-            font=dict(size=12),
-            bgcolor="rgba(255, 255, 255, 0.9)",
-            bordercolor="rgb(68, 68, 68)",
-            borderwidth=1,
-            borderpad=10,
-            xanchor="left",
-            yanchor="top"
-        )
-    
-    # Add all traces with visibility=False
-    traces_per_combo = 4  # number of traces per continent-metric combination
-    for key, data in data_store.items():
-        continent, metric_display = key
-        data_metric = data['data_metric']
-        df = data['df']
-        model = data['regression']
-        
-        # Create sorted x values for smooth line
-        x_sorted = np.sort(df[data_metric])
-        X_sorted = sm.add_constant(x_sorted)
-        
-        # Get prediction and confidence intervals
-        y_pred = model.get_prediction(X_sorted)
-        y_mean = y_pred.predicted_mean
-        y_ci = y_pred.conf_int(alpha=0.05)
-        
-        # Add traces
-        fig.add_trace(go.Scatter(
-            x=df[data_metric],
-            y=df['Rating'],
-            mode='markers',
-            name='Movies',
-            marker=dict(color='#3498db', opacity=0.6, size=8),
-            visible=False,
-            customdata=np.column_stack((df['Rating'], df[data_metric])),
-            hovertemplate='Rating: %{customdata[0]:.2f}<br>Metric value: %{customdata[1]:.2f}<extra></extra>'
-        ))
-        
-        fig.add_trace(go.Scatter(
-            x=x_sorted,
-            y=y_ci[:, 1],
-            mode='lines',
-            line=dict(width=0),
-            showlegend=False,
-            visible=False
-        ))
-        
-        fig.add_trace(go.Scatter(
-            x=x_sorted,
-            y=y_ci[:, 0],
-            mode='lines',
-            line=dict(width=0),
-            fill='tonexty',
-            fillcolor='rgba(231, 76, 60, 0.2)',
-            name='95% Confidence interval',
-            visible=False
-        ))
-        
-        fig.add_trace(go.Scatter(
-            x=x_sorted,
-            y=y_mean,
-            mode='lines',
-            name='Regression line',
-            line=dict(color='#e74c3c', width=2),
-            visible=False
-        ))
-    
-    # Create dropdown menus
-    continents = sorted(list(set(k[0] for k in data_store.keys())))
+    # Get unique continents and metrics
+    continents = ['North America', 'Asia', 'Europe', 'South America']
     metrics = sorted(list(set(k[1] for k in data_store.keys())))
-    
-    # Use closure to maintain state
-    current_selection = {
-        'continent': continents[0],
-        'metric': metrics[0]
-    }
-    print("current selection: ", current_selection)
-    
-    def create_visibility_array(selected_continent, selected_metric):
+
+    # Create subplots 2x2
+    fig = make_subplots(
+        rows=2, cols=2,
+        subplot_titles=continents
+    )
+
+    # Add traces for each continent
+    traces_per_subplot = 2  # Scatter + Regression Line
+
+    for i, continent in enumerate(continents):
+        row = i // 2 + 1
+        col = i % 2 + 1
+
+        for metric in metrics:
+            key = (continent, metric)
+            if key in data_store:
+                data = data_store[key]
+                data_metric = data['data_metric']
+                df = data['df']
+                model = data['regression']
+
+                # Create sorted x values for smooth line
+                x_sorted = np.sort(df[data_metric])
+                X_sorted = sm.add_constant(x_sorted)
+
+                # Get prediction and confidence intervals
+                y_pred = model.get_prediction(X_sorted)
+                y_mean = y_pred.predicted_mean
+                y_ci = y_pred.conf_int(alpha=0.05)
+
+                # Add scatter plot
+                fig.add_trace(
+                    go.Scatter(
+                        x=df[data_metric],
+                        y=df['Rating'],
+                        mode='markers',
+                        name='Movies',  # Single legend entry for Movies
+                        marker=dict(color='#3498db', opacity=0.6, size=8),
+                        customdata=np.column_stack((df['Rating'], df[data_metric])),
+                        hovertemplate='Rating: %{customdata[0]:.2f}<br>Metric value: %{customdata[1]:.2f}<extra></extra>',
+                        visible=(metric == metrics[0]),
+                        showlegend=(i == 0)  # Show legend only once
+                    ),
+                    row=row, col=col
+                )
+                    
+                
+                # Add regression line
+                fig.add_trace(
+                    go.Scatter(
+                        x=x_sorted, y=y_mean, mode='lines',
+                        name='Regression Line',  # Single legend entry for Regression Line
+                        line=dict(color='#e74c3c', width=2),
+                        visible=(metric == metrics[0]),
+                        showlegend=(i == 0)  # Show legend only once
+                    ),
+                    row=row, col=col
+                )
+
+    # Create dropdown menu buttons
+    buttons = []
+    for metric in metrics:
         visibility = []
-        for continent in continents:
-            for metric in metrics:
-                key = (continent, metric)
-                is_visible = continent == selected_continent and metric == selected_metric
-                visibility.extend([is_visible] * traces_per_combo)
-        return visibility
+        for i, continent in enumerate(continents):
+            for m in metrics:
+                visible = (m == metric)
+                visibility.extend([visible] * traces_per_subplot)
 
-    def create_continent_update_args(selected_continent):
-        current_selection['continent'] = selected_continent
-        return [ {
-            "visible": create_visibility_array(selected_continent, current_selection['metric'])
-        }, {
-            "annotations": [create_stat_annotation(selected_continent, current_selection['metric'], data_store)]
-        }]
-
-    def create_metric_update_args(selected_metric):
-        current_selection['metric'] = selected_metric
-        return [ {
-            "visible": create_visibility_array(current_selection['continent'], selected_metric)
-        }, {
-            "annotations": [create_stat_annotation(current_selection['continent'], selected_metric, data_store)]
-        }]
-    
-    # Create buttons
-    continent_buttons = [
-        dict(
-            args=create_continent_update_args(continent),
-            label=continent,
-            method="update"
-        )
-        for continent in continents
-    ]
-
-    metric_buttons = [
-        dict(
-            args=create_metric_update_args(metric),
+        buttons.append(dict(
             label=metric,
-            method="update"
-        )
-        for metric in metrics
-    ]
-    
+            method="update",
+            args=[{"visible": visibility},
+                  {"title": f"Emotional Diversity vs Movie Ratings - Metric: {metric}"}]
+        ))
+
     # Update layout
     fig.update_layout(
         title=dict(
-            text='Emotional diversity vs movie ratings',
+            text=f'Emotional Diversity vs Movie Ratings - Metric: {metrics[0]}',
             font=dict(size=24, color='rgb(68, 68, 68)'),
-            x=0.5,
-            y=0.9
+            x=0.5, y=0.95
         ),
-        xaxis=dict(
-            title='Metric value',
-            title_font=dict(size=14),
-            tickfont=dict(size=12),
-            showgrid=True,
-            gridcolor='lightgrey',
-        ),
-        yaxis=dict(
-            title='Rating',
-            title_font=dict(size=14),
-            tickfont=dict(size=12),
-            showgrid=True,
-            gridcolor='lightgrey',
-        ),
-        height=700,
-        width=1000,
+        height=1200,
+        width=1400,
+        showlegend=True,  # Ensure legend is always displayed
         plot_bgcolor='white',
         paper_bgcolor='white',
-        margin=dict(l=80, r=80, t=180, b=80),
-        showlegend=True,
-        hoverlabel=dict(
-            bgcolor="white",
-            font_size=12,
-            font_family="Arial"
-        ),
-        updatemenus=[ 
-            dict(
-                buttons=continent_buttons,
-                direction="down",
-                showactive=True,
-                x=0.1,
-                xanchor="left",
-                y=1.15,
-                yanchor="top",
-                bgcolor='white',
-                bordercolor='rgb(68, 68, 68)',
-                borderwidth=1,
-                pad=dict(t=10),
-                name="Continent"
-            ),
-            dict(
-                buttons=metric_buttons,
-                direction="down",
-                showactive=True,
-                x=0.4,
-                xanchor="left",
-                y=1.15,
-                yanchor="top",
-                bgcolor='white',
-                bordercolor='rgb(68, 68, 68)',
-                borderwidth=1,
-                pad=dict(t=10),
-                name="Metric"
-            )
-        ],
-        annotations=[
-            dict(
-                text="Continent:",
-                x=0.02,
-                y=1.12,
-                xref="paper",
-                yref="paper",
-                showarrow=False,
-                font=dict(size=14)
-            ),
-            dict(
-                text="Metric:",
-                x=0.32,
-                y=1.12,
-                xref="paper",
-                yref="paper",
-                showarrow=False,
-                font=dict(size=14)
-            )
-        ]
+        margin=dict(l=80, r=80, t=100, b=80),
+        updatemenus=[dict(
+            buttons=buttons,
+            direction="down",
+            x=0.5, xanchor="center", y=1.15, yanchor="top",
+            bgcolor='white',
+            bordercolor='rgb(68, 68, 68)',
+            borderwidth=1
+        )]
     )
-    
-    # Add initial statistical annotation
-    initial_annotation = create_stat_annotation(continents[0], metrics[0], data_store)
-    fig.update_layout(annotations=fig.layout.annotations + (initial_annotation,))
-    
-    # Make first set of traces visible
-    for i in range(traces_per_combo):
-        fig.data[i].visible = True
-    
+
+    # Update axes for all subplots
+    for i in range(1, 3):
+        for j in range(1, 3):
+            fig.update_xaxes(title_text='Metric Value', row=i, col=j)
+            fig.update_yaxes(title_text='Rating', row=i, col=j)
+
     return fig
 
 def plot_mean_ratings_with_error(summary_stats):
