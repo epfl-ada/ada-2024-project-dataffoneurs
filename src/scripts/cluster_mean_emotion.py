@@ -388,7 +388,7 @@ def visualize_prop_cluster_by_genre(data_kmeans):
                 {'title': f"Cluster repartition for {category}"}]  # Update title
         ))
 
-    # Add the dropdown menu to the layout
+    # Add the dropdown menu to the layout   
     fig.update_layout(
         updatemenus=[{
             'active': 0,
